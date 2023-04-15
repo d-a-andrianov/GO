@@ -1,0 +1,82 @@
+.about__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.about__wrapper {
+  display: inline-block;
+  max-width: 490px;
+}
+
+.about__img {
+  max-width: 600px;
+  display: inline-block;
+  margin-right: 80px;
+  
+}
+
+.about__text {
+  margin-bottom: 70px;
+  display: block;
+}
+
+.about__item {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+}
+
+.about__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.about__blockquote {
+  overflow: hidden;
+}
+
+.about__description {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  margin-bottom: 55px;
+  display: block;
+}
+
+.about__mark {
+  color: #6C0287;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.about__boss {
+  width: 389px;
+  height: 84px;
+  margin: auto auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  float: right;
+}
+
+.about__img-boss {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 30px;
+}
+
+.about__text-block {
+  max-width: 240px;
+  display: inline-block;
+}

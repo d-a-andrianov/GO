@@ -1,0 +1,58 @@
+.halls__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.halls__list {
+  list-style: none;
+  font-size: 0;
+}
+
+.halls__item {
+  display: inline-block;
+  width: 580px;
+  height: 349px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.halls__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.halls__item:not(:nth-child(2n)) {
+  margin-right: 20px;
+}
+
+.halls__link {
+  display: block;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 135px 0;
+  text-align: center;
+}
+
+.halls__item_theme_vibes {
+  background-image: url(/src/img/third-section/1.jpg);
+}
+
+.halls__item_theme_starwars {
+  background-image: url(/src/img/third-section/2.jpg);
+}
+
+.halls__item_theme_wildwest {
+  background-image: url(/src/img/third-section/3.jpg);
+}
+
+.halls__item_theme_neon {
+  background-image: url(/src/img/third-section/4.jpg);
+}

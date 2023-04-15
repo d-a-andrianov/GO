@@ -1,0 +1,38 @@
+/* .game-over__container {
+  min-height: 823px;
+  background-image: url(/src/img/second-section/banner.png);
+  background-size: 675 762;
+  background-position: right 30px bottom;
+  background-repeat: no-repeat;
+} */
+
+.game-over__container {
+  position: relative;
+  min-height: 823px;
+}
+
+.game-over__container::before {
+  content: '';
+  background-image: url(/src/img/second-section/banner.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 762px;
+  width: 675px;
+  right: 30px;
+  bottom: 0px;
+}
+
+.game-over__title {
+  font-size: 150px;
+  line-height: 150px;
+  font-weight: 900;
+  letter-spacing: -0.1em;
+  margin: 0;
+}
+
+.game-over__text {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 50px;
+  margin-left: 100px;
+}
