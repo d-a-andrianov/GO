@@ -42,17 +42,17 @@
 }
 
 .halls__item_theme_vibes {
-  background-image: url(/src/img/third-section/1.jpg);
+  background-image: url(src/img/third-section/1.jpg);
 }
 
 .halls__item_theme_starwars {
-  background-image: url(/src/img/third-section/2.jpg);
+  background-image: url(src/img/third-section/2.jpg);
 }
 
 .halls__item_theme_wildwest {
-  background-image: url(/src/img/third-section/3.jpg);
+  background-image: url(src/img/third-section/3.jpg);
 }
 
 .halls__item_theme_neon {
-  background-image: url(/src/img/third-section/4.jpg);
+  background-image: url(src/img/third-section/4.jpg);
 }
