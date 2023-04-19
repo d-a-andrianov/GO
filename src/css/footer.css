@@ -13,25 +13,32 @@ footer {
   margin-bottom: 40px;
 }
 
-.footer__map {
+.footer__contacts {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 156px;
 }
 
 .footer__adress {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__adress-top {
+  padding-left: 65px;
+  margin-bottom: 35px;
+}
+
+.footer__text:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.footer__text:first-child {
   margin-bottom: 39px;
 }
 
-.footer__adress:first-child {
-  margin-bottom: 39px;
-}
-
-.footer__img-icon {
-  margin-right: 30px;
-
-}
-
-.footer__link {
+.footer__link-adress {
+  position: relative;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -39,27 +46,83 @@ footer {
   color: #FFFFFF;
   text-decoration: none;
   white-space: pre-wrap;
+  margin-bottom: 39px;
+}
+
+.footer__link-adress::before {
+  content: '';
+  background-image: url(../img/contacts/location.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: -65px;
+  bottom: 0px;
+}
+
+.footer__link-phone {
+  position: relative;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: normal;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__link-phone::before {
+  content: '';
+  background-image: url(../img/contacts/bx_bxs-phone-call.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: -65px;
+  bottom: -20px;
+}
+
+.footer__link-mail {
+  position: relative;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: normal;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__link-mail::before {
+  content: '';
+  background-image: url(../img/contacts/envelope_mail.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: -65px;
+  bottom: -20px;
 }
 
 .footer__social {
+  display: flex;
+  vertical-align: bottom;
   width: 289px;
   height: 49px;
   list-style: none;
-}
-
-.footer__item {
-  display: inline-block;
 }
 
 .footer__item:not(:last-child) {
   margin-right: 25px;
 }
 
-.footer__img-social {
-  height: 50px;
-  width: 50px;
+.footer__author {
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
 }
 
-.footer__img-social:not(:last-child) {
-  margin-right: 25px;
+.footer__author-right {
+  text-align: right;
 }

@@ -12,8 +12,9 @@
 </head>
 
 <body>
-  <header class="header">
 
+  <!-- Хедер -->
+  <header class="header">
     <div class="container header__container">
       <img class="header__img" src="src/img/logo.svg" alt="Логотип GO. Состоит из букв G и O">
       <nav class="header__nav-container">
@@ -50,9 +51,9 @@
 
     <!-- Вторая секция -->
     <section id="second-section" class="entertainment">
-      <div class="container entertainment-container" >
+      <div class="container entertainment-container">
         <h2 class="entertainment__title">У нас есть всё для классного
-отдыха с друзьями!</h2>
+          отдыха с друзьями!</h2>
         <ul class="entertainment__list">
           <li class="entertainment__item">
             <figure class="entertainment__figure">
@@ -65,7 +66,7 @@
             <figure class="entertainment__figure">
               <img class="entertainment__img" src="src/img/second-section/audio.png" alt="Аудио-система 5.1">
               <figcaption class="entertainment__figcaption">Аудио-система 5.1
-с отличным звуком</figcaption>
+                с отличным звуком</figcaption>
             </figure>
           </li>
 
@@ -86,7 +87,8 @@
           <li class="entertainment__item">
             <figure class="entertainment__figure">
               <img class="entertainment__img" src="src/img/second-section/netflix.png" alt="Кино сервисы">
-              <figcaption class="entertainment__figcaption">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</figcaption>
+              <figcaption class="entertainment__figcaption">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko
+              </figcaption>
             </figure>
           </li>
 
@@ -266,42 +268,56 @@
   <footer id="contacts" class="footer">
     <div class="container">
       <h2 class="footer__title">Контакты</h2>
-      
-      <div class="footer__map">      
-      <address class="footer__adress">
-        <p>
-          <img class="footer__img-icon" src="src/img/contacts/location.svg" alt="Иконка точка на карте">
-          <a class="footer__link" href="#">г. Москва
-          ул. Аквамарина, 16</a>
-        </p>
-        <p>
-          <img class="footer__img-icon" src="src/img/contacts/bx_bxs-phone-call.svg" alt="Телефонная трубка">
-          <a class="footer__link" href="tel:89509302893">8(950)930-28-93</a>
-        </p>
-        <p>
-          <img class="footer__img-icon" src="src/img/contacts/envelope_mail.svg" alt="Почтовый конверт">
-          <a class="footer__link" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
-        </p>
-      </address>
-      <img src="src/img/contacts/map.jpg" alt="Карта с адресом заведения">
-      
-    </div>
 
-      <ul class="footer__social">
-        <li class="footer__item"><a href="https://vk.com"><img class="footer__img-social" src="src/img/contacts/Vector.svg"
-              alt="Вконтакте"></a></li>
+      <div class="footer__contacts">
+        <address class="footer__adress">
+          <div class="footer__adress-top">
 
-        <li class="footer__item"><a href="https://web.telegram.org/"><img class="footer__img-social"
-              src="src/img/contacts/bi_telegram.svg" alt="Телеграмм"></a></li>
+            <p class="footer__text">
+              <a class="footer__link-adress" href="#">г. Москва
+                ул. Аквамарина, 16</a>
+            </p>
 
-        <li class="footer__item"><a href="https://web.telegram.org/"><img class="footer__img-social"
-              src="src/img/contacts/foundation_social-pinterest.svg" alt="Пинтерест"></a></li>
+            <p class="footer__text">
+              <a class="footer__link-phone" href="tel:89509302893">8(950)930-28-93</a>
+            </p>
 
-        <li class="footer__item"><a href="https://web.telegram.org/"><img class="footer__img-social"
-              src="src/img/contacts/foundation_social-stumbleupon.svg" alt="Stumbleupon"></a></li>
-      </ul>
-    
+            <p class="footer__text">
+              <a class="footer__link-mail" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
+            </p>
+          </div>
 
+          <div class="footer__adress-bottom">
+            <ul class="footer__social">
+              <li class="footer__item"><a href="https://vk.com"><img class="footer__img-social"
+                    src="src/img/contacts/Vector.svg" alt="Вконтакте"></a></li>
+
+              <li class="footer__item"><a href="https://web.telegram.org/"><img class="footer__img-social"
+                    src="src/img/contacts/bi_telegram.svg" alt="Телеграмм"></a></li>
+
+              <li class="footer__item"><a href="https://web.telegram.org/"><img class="footer__img-social"
+                    src="src/img/contacts/foundation_social-pinterest.svg" alt="Пинтерест"></a></li>
+
+              <li class="footer__item"><a href="https://web.telegram.org/"><img class="footer__img-social"
+                    src="src/img/contacts/foundation_social-stumbleupon.svg" alt="Stumbleupon"></a></li>
+            </ul>
+          </div>
+
+        </address>
+        <img class="footer__img-map" src="src/img/contacts/map.jpg" alt="Карта с адресом заведения">
+      </div>
+
+      <div class="footer__author">
+        <div class="footer__author-left">
+          <p>© Game Over, 2022</p>
+        </div>
+
+        <div class="footer__author-right">
+          <p>Design by Anastasia Ilina</p>
+          <p>ilina9825@gmail.com</p>
+        </div>
+
+      </div>
     </div>
   </footer>
 
