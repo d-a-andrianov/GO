@@ -1,0 +1,43 @@
+.container {}
+
+.entertainment {}
+
+.entertainment__container {
+
+}
+
+.entertainment__title {
+  font-weight: Bold;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  margin-bottom: 41px;
+}
+
+.entertainment__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.entertainment__figure {
+  position: relative;
+}
+
+.entertainment__img {}
+
+.entertainment__item {}
+
+.entertainment__figcaption {
+  position: absolute;
+  margin-top: -62px;
+  margin-left: 40px;
+  font-weight: Bold;
+  font-size: 20px;
+  Line-height: 28px;
+  white-space: pre-wrap;
+}
+

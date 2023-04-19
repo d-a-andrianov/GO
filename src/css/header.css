@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.nav__container {
+.header__nav-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -20,7 +20,6 @@
 
 .header__list {
   display: inline-flex;
-  /* justify-content: center; */
   align-items: center;
   margin-right: 97px;
   font-style: normal;
@@ -37,4 +36,12 @@
 .header__button {
   width: 280px;
   height: 55px;
+  font-weight: Bold;
+  font-size: 22px;
+  Line-height: 30px;
+  text-transform: uppercase;
+  background: #000;
+  color: #FFFFFF;
+  border: 3px #CD06FF solid;
+  border-radius: 10px;
 }

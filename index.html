@@ -13,10 +13,10 @@
 
 <body>
   <header class="header">
-    
+
     <div class="container header__container">
       <img class="header__img" src="src/img/logo.svg" alt="Логотип GO. Состоит из букв G и O">
-      <nav class="nav__container">
+      <nav class="header__nav-container">
         <ul class="header__list">
           <li class="header__item">
             <a class="header__link" href="#third-section">Залы</a>
@@ -34,67 +34,69 @@
             <a class="header__link" href="#contacts">Контакты</a>
           </li>
         </ul>
-        <button class="header__button">Кнопка</button>      
+        <button class="header__button" name="call-me" type="submit">Заказать звонок</button>
       </nav>
     </div>
   </header>
 
   <main>
     <!-- Первая секция -->
-    <!-- <section id="first-section">
-      <div class="container">
-        <h2>У нас есть всё для классного отдыха с друзьями!</h2>
-        <ul>
-          <li>
-            <figure>
-              <img src="src/img/vr.png" alt="VR очки">
-              <figcaption>VR очки</figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <figure>
-              <img src="src/img/audio.png" alt="Аудио-система 5.1">
-              <figcaption>Аудио-система 5.1 с отличным звуком</figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <figure>
-              <img src="src/img/micro.png" alt="Караоке">
-              <figcaption>Караоке (4 микрофона)</figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <figure>
-              <img src="src/img/game.png" alt="Настольные игры">
-              <figcaption>Настольные игры</figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <figure>
-              <img src="src/img/netflix.png" alt="Кино сервисы">
-              <figcaption>Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <figure>
-              <img src="src/img/sony.png" alt="Playstation 5">
-              <figcaption>Playstation 5</figcaption>
-            </figure>
-          </li>
-        </ul>
-      </div>
-    </section> -->
-
-    <!-- Вторая секция -->
-    <section id="second-section" class="game-over">
+    <section id="first-section" class="game-over">
       <div class="container game-over__container">
         <h1 class="game-over__title">GAME OVER</h1>
         <p class="game-over__text">Новый формат игр и отдыха</p>
+      </div>
+    </section>
+
+    <!-- Вторая секция -->
+    <section id="second-section" class="entertainment">
+      <div class="container entertainment-container" >
+        <h2 class="entertainment__title">У нас есть всё для классного
+отдыха с друзьями!</h2>
+        <ul class="entertainment__list">
+          <li class="entertainment__item">
+            <figure class="entertainment__figure">
+              <img src="src/img/second-section/vr.png" alt="VR очки">
+              <figcaption class="entertainment__figcaption">VR очки</figcaption>
+            </figure>
+          </li>
+
+          <li class="entertainment__item">
+            <figure class="entertainment__figure">
+              <img class="entertainment__img" src="src/img/second-section/audio.png" alt="Аудио-система 5.1">
+              <figcaption class="entertainment__figcaption">Аудио-система 5.1
+с отличным звуком</figcaption>
+            </figure>
+          </li>
+
+          <li class="entertainment__item">
+            <figure class="entertainment__figure">
+              <img class="entertainment__img" src="src/img/second-section/micro.png" alt="Караоке">
+              <figcaption class="entertainment__figcaption">Караоке (4 микрофона)</figcaption>
+            </figure>
+          </li>
+
+          <li class="entertainment__item">
+            <figure class="entertainment__figure">
+              <img class="entertainment__img" src="src/img/second-section/game.png" alt="Настольные игры">
+              <figcaption class="entertainment__figcaption">Настольные игры</figcaption>
+            </figure>
+          </li>
+
+          <li class="entertainment__item">
+            <figure class="entertainment__figure">
+              <img class="entertainment__img" src="src/img/second-section/netflix.png" alt="Кино сервисы">
+              <figcaption class="entertainment__figcaption">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</figcaption>
+            </figure>
+          </li>
+
+          <li class="entertainment__item">
+            <figure class="entertainment__figure">
+              <img class="entertainment__img" src="src/img/second-section/sony.png" alt="Playstation 5">
+              <figcaption class="entertainment__figcaption">Playstation 5</figcaption>
+            </figure>
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -264,36 +266,41 @@
   <footer id="contacts" class="footer">
     <div class="container">
       <h2 class="footer__title">Контакты</h2>
-
+      
+      <div class="footer__map">      
       <address class="footer__adress">
         <p>
-          <img class="footer__img" src="src/img/contacts/location.svg" alt="Иконка точка на карте">
-          <a class="footer__link" href="#">г. Москва ул. Аквамарина, 16</a>
+          <img class="footer__img-icon" src="src/img/contacts/location.svg" alt="Иконка точка на карте">
+          <a class="footer__link" href="#">г. Москва
+          ул. Аквамарина, 16</a>
         </p>
         <p>
-          <img class="footer__img" src="src/img/contacts/bx_bxs-phone-call.svg" alt="Телефонная трубка">
+          <img class="footer__img-icon" src="src/img/contacts/bx_bxs-phone-call.svg" alt="Телефонная трубка">
           <a class="footer__link" href="tel:89509302893">8(950)930-28-93</a>
         </p>
         <p>
-          <img class="footer__img" src="src/img/contacts/envelope_mail.svg" alt="Почтовый конверт">
+          <img class="footer__img-icon" src="src/img/contacts/envelope_mail.svg" alt="Почтовый конверт">
           <a class="footer__link" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
         </p>
       </address>
+      <img src="src/img/contacts/map.jpg" alt="Карта с адресом заведения">
+      
+    </div>
 
-      <ul class="social">
-        <li class="social__item"><a href="https://vk.com"><img class="social-img" src="src/img/contacts/Vector.svg"
+      <ul class="footer__social">
+        <li class="footer__item"><a href="https://vk.com"><img class="footer__img-social" src="src/img/contacts/Vector.svg"
               alt="Вконтакте"></a></li>
 
-        <li class="social__item"><a href="https://web.telegram.org/"><img class="social-img"
+        <li class="footer__item"><a href="https://web.telegram.org/"><img class="footer__img-social"
               src="src/img/contacts/bi_telegram.svg" alt="Телеграмм"></a></li>
 
-        <li class="social__item"><a href="https://web.telegram.org/"><img class="social-img"
+        <li class="footer__item"><a href="https://web.telegram.org/"><img class="footer__img-social"
               src="src/img/contacts/foundation_social-pinterest.svg" alt="Пинтерест"></a></li>
 
-        <li class="social__item"><a href="https://web.telegram.org/"><img class="social-img"
+        <li class="footer__item"><a href="https://web.telegram.org/"><img class="footer__img-social"
               src="src/img/contacts/foundation_social-stumbleupon.svg" alt="Stumbleupon"></a></li>
       </ul>
-
+    
 
     </div>
   </footer>
