@@ -52,7 +52,7 @@
     <!-- Вторая секция -->
     <section id="second-section" class="entertainment">
       <div class="container entertainment-container">
-        <h2 class="entertainment__title">У нас есть всё для классного
+        <h2 class="entertainment__title">У нас есть всё для классного 
           отдыха с друзьями!</h2>
         <ul class="entertainment__list">
           <li class="entertainment__item">
@@ -65,7 +65,8 @@
           <li class="entertainment__item">
             <figure class="entertainment__figure">
               <img class="entertainment__img" src="src/img/second-section/audio.png" alt="Аудио-система 5.1">
-              <figcaption class="entertainment__figcaption">Аудио-система 5.1 с&nbsp;отличным&nbsp;звуком</figcaption>
+              <figcaption class="entertainment__figcaption">Аудио-система 5.1
+                с отличным звуком</figcaption>
             </figure>
           </li>
 
@@ -132,34 +133,26 @@
 
           <!-- Выбери зал -->
           <fieldset class="reserved__fieldset-halls">
-          <legend class="reserved__legend-title">Выбери зал</legend>
-          <div class="form_radio_btn">
-            <input id="radio-1" type="radio" name="radio" value="1" checked>
-            <label for="radio-1">80's vibes</label>
-          </div>
 
-          <div class="form_radio_btn">
-            <input id="radio-1" type="radio" name="radio" value="2" checked>
-            <label for="radio-1">star wars</label>
-          </div>
+            <legend class="reserved__legend-title">Выбери зал</legend>
+            <div class="reserved__radio-halls">
+              <input id="80's-vibes" type="radio" name="hall" value="80's-vibes">
+              <label for="80's-vibes">80's vibes</label>
+            </div>
 
-          <div class="form_radio_btn">
-            <input id="radio-1" type="radio" name="radio" value="3" checked>
-            <label for="radio-1">wold west</label>
-          </div>
+            <div class="reserved__radio-halls">
+              <input id="star-wars" type="radio" name="hall" value="star-wars">
+              <label for="star-wars">star wars</label>
+            </div>
 
-          <div class="form_radio_btn">
-            <input id="radio-1" type="radio" name="radio" value="4" checked>
-            <label for="radio-1">neon style</label>
-          </div>
-            
-            
-            <div class="reserved__wrapper-halls">
-              <!-- возможно этот враппер лишний, убрать если не нужен -->
-              <label class="reserved__label-halls"><input type="radio" name="hall" value="80's vibes">80's vibes</label>
-              <label class="reserved__label-halls"><input type="radio" name="hall" value="star-wars">star wars</label>
-              <label class="reserved__label-halls"><input type="radio" name="hall" value="wold-west">wold west</label>
-              <label class="reserved__label-halls"><input type="radio" name="hall" value="neon style">neon style</label>
+            <div class="reserved__radio-halls">
+              <input id="wold-west" type="radio" name="hall" value="wold-west">
+              <label for="wold-west">wold west</label>
+            </div>
+
+            <div class="reserved__radio-halls">
+              <input id="neon-style" type="radio" name="hall" value="neon-style">
+              <label for="neon-style">neon style</label>
             </div>
           </fieldset>
 
@@ -199,7 +192,7 @@
             <legend class="reserved__legend-title">Выбери дату и время</legend>
 
             <!-- левый ряд инпутов -->
-            <div class="reserved__fieldset-date_left">
+            <div class="reserved__fieldset-date-left">
               <input class="reserved__input-left-top" type="date" name="date" value="date" required>
 
               <input class="reserved__input-left-top" type="time" name="time" value="date" required>
@@ -209,38 +202,39 @@
             </div>
 
             <!-- средний ряд инпутов -->
-            <div class="reserved__fieldset-date_center">
-              <label class="reserved__label_center-top">
-                <input class="reserved__input-center" class="reserved__input-small" type="text" name="firstname"
-                  required>
+            <div class="reserved__fieldset-date-center">
+              <label class="reserved__label-center-top">
+                <input class="reserved__input-center" type="text" name="firstname" required>
               </label>
 
-              <label class="reserved__label_center-bottom">
+              <label class="reserved__label-center-bottom">
                 <input class="reserved__input-center" type="text" name="surname" required>
               </label>
             </div>
 
             <!-- правый ряд инпутов -->
-            <div class="reserved__fieldset-date_right">
-              <label class="reserved__label_right-top">
-                <input class="reserved__input_right" type="phone" required>
+            <div class="reserved__fieldset-date-right">
+              <label class="reserved__label-right-top">
+                <input class="reserved__input-right" type="phone" required>
               </label>
 
-              <label class="reserved__label_right-bottom">
-                <input class="reserved__input_right" type="email" name="email" required>
+              <label class="reserved__label-right-bottom">
+                <input class="reserved__input-right" type="email" name="email" required>
               </label>
+
               <div class="reserved__button-bottom">
-                <button form="my-form" name="reserved" type="submit">Забронировать</button>
+                <button class="reserved__button-bottom" id="reserved" form="my-form" name="reserved" type="submit">Забронировать</button>
 
-                <!-- задать кнопке лейбл и к нему прописать свойства -->
+
+              </div>
+
 
             </div>
-          </div>
 
             <!-- <input type="checkbox" name="agreement" value="agreement" required>Согласие на обработку данных -->
 
           </fieldset>
- 
+
         </form>
 
       </div>

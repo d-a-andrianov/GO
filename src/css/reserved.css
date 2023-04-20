@@ -34,13 +34,27 @@
   margin-bottom: 60px;
 }
 
-.reserved__wrapper-halls {
-  display: flex;
-  justify-content: space-between;
+.reserved__radio-halls input[type=radio] {
+	display: none;
 }
 
-.reserved__label-halls {
+.reserved__radio-halls label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 7px 15px;
+	line-height: 34px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	user-select: none;
+  width: 250px;
+  height: 55px;
+  background-color: #fff;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .reserved__fieldset-entertainment {
@@ -88,12 +102,12 @@
   display: flex;
   justify-content: space-between;
   padding: 0 100px;
-  margin-bottom: 40px;
+  margin-bottom: 180px;
   height: 228px;
 }
 
 /* левый ряд инпутов */
-.reserved__fieldset-date_left {
+.reserved__fieldset-date-left {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -108,21 +122,21 @@
   line-height: 28px;
 }
 
-.reserved__input-left-bootom {
+.reserved__input-left-bottom {
   width: 300px;
   /* height: 52px; */
-  /* ширина не встает */
+  /* высота не встает */
 }
 
 /* средний ряд инпутов */
 
-.reserved__fieldset-date_center {
+.reserved__fieldset-date-center {
   display: flex;
   flex-direction: column;
   margin-right: 50px;
 }
 
-.reserved__fieldset-date_center label:not(:last-child) {
+.reserved__fieldset-date-center label:not(:last-child) {
   margin-bottom: 36px;
 }
 
@@ -131,28 +145,28 @@
   height: 52px;
 }
 
-.reserved__label_center-top {
+.reserved__label-center-top {
   position: relative;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
 }
 
-.reserved__label_center-top::before {
+.reserved__label-center-top::before {
   content: 'Имя';
   position: absolute;
   left: 0px;
   bottom: 58px;
 }
 
-.reserved__label_center-bottom {
+.reserved__label-center-bottom {
   position: relative;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
 }
 
-.reserved__label_center-bottom::before {
+.reserved__label-center-bottom::before {
   content: 'Фамилия';
   position: absolute;
   left: 0px;
@@ -161,17 +175,17 @@
 
 /* правый ряд инпутов */
 
-.reserved__fieldset-date_right {
+.reserved__fieldset-date-right {
   display: flex;
   flex-direction: column;
 }
 
-.reserved__input_right {
+.reserved__input-right {
   width: 300px;
   height: 52px;
 }
 
-.reserved__label_right-top {
+.reserved__label-right-top {
   position: relative;
   font-weight: 700;
   font-size: 14px;
@@ -179,14 +193,14 @@
   margin-bottom: 36px;
 }
 
-.reserved__label_right-top::before {
+.reserved__label-right-top::before {
   content: 'Телефон';
   position: absolute;
   left: 0px;
   bottom: 58px;
 }
 
-.reserved__label_right-bottom {
+.reserved__label-right-bottom {
   position: relative;
   font-weight: 700;
   font-size: 14px;
@@ -194,7 +208,7 @@
   margin-bottom: 36px;
 }
 
-.reserved__label_right-bottom::before {
+.reserved__label-right-bottom::before {
   content: 'E-mail';
   position: absolute;
   left: 0px;
@@ -204,38 +218,15 @@
 .reserved__button-bottom {
   /* align-self: flex-end; */
   /* justify-self: end; */
-  /* display: inline-block; */
+  display: block;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
   height: 60px;
   width: 300px;
-  border-radius: 10px
+  border-radius: 10px;
+  color: #6C0287;
+  /* margin-bottom: 80px; */
 }
 
-.form_radio_btn {
-	/* display: inline-block; */
-	margin-right: 10px;
-  /* height: 55px;
-  width: 250px; */
-}
-.form_radio_btn input[type=radio] {
-	display: none;
-}
 
-.form_radio_btn label {
-	display: inline-block;
-	cursor: pointer;
-	padding: 0px 15px;
-	line-height: 34px;
-	border: 1px solid #999;
-	border-radius: 6px;
-	user-select: none;
-  background-color: #fff;
-  color: #000000;
-  font-style: 700;
-  font-size: 30px;
-  line-height: 40px;
-  text-transform: uppercase;
-
-}

@@ -12,7 +12,7 @@
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  white-space: pre-wrap;
+  white-space: pre-line;
   margin-bottom: 41px;
 }
 
@@ -42,5 +42,6 @@
   font-weight: Bold;
   font-size: 20px;
   Line-height: 28px;
+  white-space: pre-line;
 }
 
