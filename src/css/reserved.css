@@ -124,8 +124,11 @@
 
 .reserved__input-left-bottom {
   width: 300px;
+  /* font-size: 18px;
+  line-height: 28px; */
   /* height: 52px; */
-  /* высота не встает */
+
+  /* высота не встает из-за font-size: 100%*/
 }
 
 /* средний ряд инпутов */
