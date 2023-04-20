@@ -22,6 +22,8 @@
 .reserved__fieldset-halls {
   border: 0 none;
   margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .reserved__legend-title {
@@ -80,14 +82,17 @@
   /* тут что-то наколхозил */
 }
 
+/* общий fieldset для 3 колонок инпутов */
 .reserved__fieldset-date {
   border: 0 none;
   display: flex;
   justify-content: space-between;
   padding: 0 100px;
-  margin-bottom: 40px;  
+  margin-bottom: 40px;
+  height: 228px;
 }
 
+/* левый ряд инпутов */
 .reserved__fieldset-date_left {
   display: flex;
   justify-content: space-between;
@@ -98,21 +103,26 @@
 .reserved__input-left-top {
   width: 134px;
   height: 52px;
-  margin-bottom: 36px;
+  /* margin-bottom: 36px; */
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .reserved__input-left-bootom {
   width: 300px;
-  height: 52px;
-  /* ширина и высота не встает */
+  /* height: 52px; */
+  /* ширина не встает */
 }
+
+/* средний ряд инпутов */
 
 .reserved__fieldset-date_center {
   display: flex;
   flex-direction: column;
+  margin-right: 50px;
 }
 
-.reserved__fieldset-date_center label {
+.reserved__fieldset-date_center label:not(:last-child) {
   margin-bottom: 36px;
 }
 
@@ -132,7 +142,7 @@
   content: 'Имя';
   position: absolute;
   left: 0px;
-  bottom: 88px;
+  bottom: 58px;
 }
 
 .reserved__label_center-bottom {
@@ -146,37 +156,68 @@
   content: 'Фамилия';
   position: absolute;
   left: 0px;
-  bottom: 88px;
+  bottom: 58px;
 }
 
+/* правый ряд инпутов */
 
-/* .footer__link-adress {
+.reserved__fieldset-date_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.reserved__input_right {
+  width: 300px;
+  height: 52px;
+}
+
+.reserved__label_right-top {
   position: relative;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  font-style: normal;
-  color: #FFFFFF;
-  text-decoration: none;
-  white-space: pre-wrap;
-  margin-bottom: 39px;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 36px;
 }
 
-.footer__link-adress::before {
-  content: '';
-  background-image: url(../img/contacts/location.svg);
-  background-repeat: no-repeat;
+.reserved__label_right-top::before {
+  content: 'Телефон';
   position: absolute;
-  height: 50px;
-  width: 50px;
-  left: -65px;
-  bottom: 0px;
-} */
+  left: 0px;
+  bottom: 58px;
+}
 
+.reserved__label_right-bottom {
+  position: relative;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 36px;
+}
+
+.reserved__label_right-bottom::before {
+  content: 'E-mail';
+  position: absolute;
+  left: 0px;
+  bottom: 58px;
+}
+
+.reserved__button-bottom {
+  /* align-self: flex-end; */
+  /* justify-self: end; */
+  /* display: inline-block; */
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  height: 60px;
+  width: 300px;
+  border-radius: 10px
+}
 
 .form_radio_btn {
-	display: inline-block;
+	/* display: inline-block; */
 	margin-right: 10px;
+  /* height: 55px;
+  width: 250px; */
 }
 .form_radio_btn input[type=radio] {
 	display: none;
@@ -190,4 +231,11 @@
 	border: 1px solid #999;
 	border-radius: 6px;
 	user-select: none;
+  background-color: #fff;
+  color: #000000;
+  font-style: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+
 }

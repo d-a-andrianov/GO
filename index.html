@@ -132,8 +132,30 @@
 
           <!-- Выбери зал -->
           <fieldset class="reserved__fieldset-halls">
-            <legend class="reserved__legend-title">Выбери зал</legend>
+          <legend class="reserved__legend-title">Выбери зал</legend>
+          <div class="form_radio_btn">
+            <input id="radio-1" type="radio" name="radio" value="1" checked>
+            <label for="radio-1">80's vibes</label>
+          </div>
+
+          <div class="form_radio_btn">
+            <input id="radio-1" type="radio" name="radio" value="2" checked>
+            <label for="radio-1">star wars</label>
+          </div>
+
+          <div class="form_radio_btn">
+            <input id="radio-1" type="radio" name="radio" value="3" checked>
+            <label for="radio-1">wold west</label>
+          </div>
+
+          <div class="form_radio_btn">
+            <input id="radio-1" type="radio" name="radio" value="4" checked>
+            <label for="radio-1">neon style</label>
+          </div>
+            
+            
             <div class="reserved__wrapper-halls">
+              <!-- возможно этот враппер лишний, убрать если не нужен -->
               <label class="reserved__label-halls"><input type="radio" name="hall" value="80's vibes">80's vibes</label>
               <label class="reserved__label-halls"><input type="radio" name="hall" value="star-wars">star wars</label>
               <label class="reserved__label-halls"><input type="radio" name="hall" value="wold-west">wold west</label>
@@ -176,6 +198,7 @@
           <fieldset class="reserved__fieldset-date">
             <legend class="reserved__legend-title">Выбери дату и время</legend>
 
+            <!-- левый ряд инпутов -->
             <div class="reserved__fieldset-date_left">
               <input class="reserved__input-left-top" type="date" name="date" value="date" required>
 
@@ -185,6 +208,7 @@
                 placeholder="Сколько человек" required>
             </div>
 
+            <!-- средний ряд инпутов -->
             <div class="reserved__fieldset-date_center">
               <label class="reserved__label_center-top">
                 <input class="reserved__input-center" class="reserved__input-small" type="text" name="firstname"
@@ -196,24 +220,27 @@
               </label>
             </div>
 
+            <!-- правый ряд инпутов -->
             <div class="reserved__fieldset-date_right">
-              <label>
-                <input class="reserved__input-small" type="phone" required>Телефон
+              <label class="reserved__label_right-top">
+                <input class="reserved__input_right" type="phone" required>
               </label>
 
-              E-mail <input class="reserved__input-small" type="email" name="email" required>
+              <label class="reserved__label_right-bottom">
+                <input class="reserved__input_right" type="email" name="email" required>
+              </label>
+              <div class="reserved__button-bottom">
+                <button form="my-form" name="reserved" type="submit">Забронировать</button>
+
+                <!-- задать кнопке лейбл и к нему прописать свойства -->
+
             </div>
-
-            <!-- <input type="checkbox" name="agreement" value="agreement" required>Согласие на обработку данных -->
-          </fieldset>
-          <button form="my-form" name="reserved" type="submit">Забронировать</button>
-
-          <div class="form_radio_btn">
-            <input id="radio-1" type="radio" name="radio" value="1" checked>
-            <label for="radio-1">Radio button 1</label>
           </div>
 
+            <!-- <input type="checkbox" name="agreement" value="agreement" required>Согласие на обработку данных -->
 
+          </fieldset>
+ 
         </form>
 
       </div>
@@ -282,8 +309,7 @@
             </figure>
             <p class="reviews__text">Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в
               стиле звездных войн, попал
-              в
-              атмосферу космоса</p>
+              в атмосферу космоса</p>
           </li>
         </ul>
 
