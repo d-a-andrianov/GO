@@ -23,6 +23,10 @@
   justify-content: space-between;
 }
 
+.entertainment__item {
+  margin-bottom: 40px;
+}
+
 .entertainment__figure {
   position: relative;
 }
@@ -38,6 +42,5 @@
   font-weight: Bold;
   font-size: 20px;
   Line-height: 28px;
-  white-space: pre-wrap;
 }
 

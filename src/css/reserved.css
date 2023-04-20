@@ -1,3 +1,10 @@
+.reserved__container {
+  max-width: 1440px;
+  padding: 80px 0;
+  margin: 0 auto;
+  background: #440F51;
+}
+
 .reserved__title {
   font-weight: 700;
   font-size: 40px;
@@ -5,4 +12,182 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 50px;
+}
+
+.reserved__form {
+  background: #440F51;
+  padding: 0 130px;
+}
+
+.reserved__fieldset-halls {
+  border: 0 none;
+  margin-bottom: 60px;
+}
+
+.reserved__legend-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;  
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.reserved__wrapper-halls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reserved__label-halls {
+  text-transform: uppercase;
+}
+
+.reserved__fieldset-entertainment {
+  border: 0 none;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  border: 0 none;
+  padding-left: 100px;
+}
+
+.reserved__fieldset-check {
+  display: flex;
+  flex-direction: column;
+  border: 0 none;
+}
+
+.reserved__legend-check {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 23px;
+}
+
+.reserved__fieldset-check label {
+  font-size: 22px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.reserved__fieldset-check label:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.reserved__fieldset-check input {
+  margin-right: 12px;
+  border: 0 none;
+  zoom: 1.5;
+  /* тут что-то наколхозил */
+}
+
+.reserved__fieldset-date {
+  border: 0 none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  margin-bottom: 40px;  
+}
+
+.reserved__fieldset-date_left {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 50px;
+}
+
+.reserved__input-left-top {
+  width: 134px;
+  height: 52px;
+  margin-bottom: 36px;
+}
+
+.reserved__input-left-bootom {
+  width: 300px;
+  height: 52px;
+  /* ширина и высота не встает */
+}
+
+.reserved__fieldset-date_center {
+  display: flex;
+  flex-direction: column;
+}
+
+.reserved__fieldset-date_center label {
+  margin-bottom: 36px;
+}
+
+.reserved__input-center {
+  width: 280px;
+  height: 52px;
+}
+
+.reserved__label_center-top {
+  position: relative;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.reserved__label_center-top::before {
+  content: 'Имя';
+  position: absolute;
+  left: 0px;
+  bottom: 88px;
+}
+
+.reserved__label_center-bottom {
+  position: relative;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.reserved__label_center-bottom::before {
+  content: 'Фамилия';
+  position: absolute;
+  left: 0px;
+  bottom: 88px;
+}
+
+
+/* .footer__link-adress {
+  position: relative;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: normal;
+  color: #FFFFFF;
+  text-decoration: none;
+  white-space: pre-wrap;
+  margin-bottom: 39px;
+}
+
+.footer__link-adress::before {
+  content: '';
+  background-image: url(../img/contacts/location.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: -65px;
+  bottom: 0px;
+} */
+
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	user-select: none;
 }

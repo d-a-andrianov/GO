@@ -65,8 +65,7 @@
           <li class="entertainment__item">
             <figure class="entertainment__figure">
               <img class="entertainment__img" src="src/img/second-section/audio.png" alt="Аудио-система 5.1">
-              <figcaption class="entertainment__figcaption">Аудио-система 5.1
-                с отличным звуком</figcaption>
+              <figcaption class="entertainment__figcaption">Аудио-система 5.1 с&nbsp;отличным&nbsp;звуком</figcaption>
             </figure>
           </li>
 
@@ -124,23 +123,30 @@
       </div>
     </section>
 
-    <!-- Четвертая секция -->
+    <!-- Четвертая секция Бронирование зала -->
     <section id="fourth-section" class="reserved">
-      <div class="container">
-        <h2 class="reserved__title">Забронировать</h2>
-        <form id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="post">
-          <fieldset>
-            <legend>Выбери зал</legend>
-            <label><input type="radio" name="hall" value="80's vibes">80's vibes</label>
-            <label><input type="radio" name="hall" value="star-wars">star wars</label>
-            <label><input type="radio" name="hall" value="wold-west">wold west</label>
-            <label><input type="radio" name="hall" value="neon style">neon style</label>
+      <div class="reserved__container">
+        <h2 class="reserved__title">Забронировать зал просто</h2>
+
+        <form class="reserved__form" id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+
+          <!-- Выбери зал -->
+          <fieldset class="reserved__fieldset-halls">
+            <legend class="reserved__legend-title">Выбери зал</legend>
+            <div class="reserved__wrapper-halls">
+              <label class="reserved__label-halls"><input type="radio" name="hall" value="80's vibes">80's vibes</label>
+              <label class="reserved__label-halls"><input type="radio" name="hall" value="star-wars">star wars</label>
+              <label class="reserved__label-halls"><input type="radio" name="hall" value="wold-west">wold west</label>
+              <label class="reserved__label-halls"><input type="radio" name="hall" value="neon style">neon style</label>
+            </div>
           </fieldset>
 
-          <fieldset>
-            <legend>Собери набор развлечений</legend>
-            <fieldset>
-              <legend>Приставка</legend>
+          <!-- Собери набор развлечений -->
+          <fieldset class="reserved__fieldset-entertainment">
+            <legend class="reserved__legend-title">Собери набор развлечений</legend>
+
+            <fieldset class="reserved__fieldset-check">
+              <legend class="reserved__legend-check">Приставка:</legend>
 
               <label><input type="radio" name="console" value="Playstation">Playstation</label>
               <label><input type="radio" name="console" value="Sega-Mega-Drive">Sega Mega Drive</label>
@@ -148,33 +154,68 @@
               <label><input type="radio" name="console" value="Dendy">Dendy</label>
             </fieldset>
 
-            <fieldset>
-              <legend>Настольные игры</legend>
+            <fieldset class="reserved__fieldset-check">
+              <legend class="reserved__legend-check">Настольные игры</legend>
+
               <label><input type="checkbox" name="games" value="Jenga">Jenga</label>
               <label><input type="checkbox" name="games" value="Monopoly">Monopoly</label>
               <label><input type="checkbox" name="games" value="Manchkin">Манчкин</label>
               <label><input type="checkbox" name="games" value="Alias">Alias</label>
             </fieldset>
 
-            <fieldset>
-              <legend>Дополнительно</legend>
+            <fieldset class="reserved__fieldset-check">
+              <legend class="reserved__legend-check">Дополнительно</legend>
+
               <label><input type="checkbox" name="additionally" value="Karaoke">Караоке</label>
               <label><input type="checkbox" name="additionally" value="VR">VR</label>
             </fieldset>
 
           </fieldset>
-          <fieldset>
-            <legend>Выбери дату и время</legend>
-            Дата*<input type="date" name="date" value="date" required>
-            Время*<input type="time" name="time" value="date" required>
-            Количество человек*<input type="number" name="persons" value="persons" required>
-            Имя*<input type="text" name="firstname" required>
-            Фамилия <input type="text" name="surname" required>
-            Номер телефона <input type="phone" required>
-            <input type="checkbox" name="agreement" value="agreement" required>Согласие на обработку данных
+
+          <!-- Выбери дату и время -->
+          <fieldset class="reserved__fieldset-date">
+            <legend class="reserved__legend-title">Выбери дату и время</legend>
+
+            <div class="reserved__fieldset-date_left">
+              <input class="reserved__input-left-top" type="date" name="date" value="date" required>
+
+              <input class="reserved__input-left-top" type="time" name="time" value="date" required>
+
+              <input class="reserved__input-left-bottom" type="number" name="persons" value="persons"
+                placeholder="Сколько человек" required>
+            </div>
+
+            <div class="reserved__fieldset-date_center">
+              <label class="reserved__label_center-top">
+                <input class="reserved__input-center" class="reserved__input-small" type="text" name="firstname"
+                  required>
+              </label>
+
+              <label class="reserved__label_center-bottom">
+                <input class="reserved__input-center" type="text" name="surname" required>
+              </label>
+            </div>
+
+            <div class="reserved__fieldset-date_right">
+              <label>
+                <input class="reserved__input-small" type="phone" required>Телефон
+              </label>
+
+              E-mail <input class="reserved__input-small" type="email" name="email" required>
+            </div>
+
+            <!-- <input type="checkbox" name="agreement" value="agreement" required>Согласие на обработку данных -->
           </fieldset>
+          <button form="my-form" name="reserved" type="submit">Забронировать</button>
+
+          <div class="form_radio_btn">
+            <input id="radio-1" type="radio" name="radio" value="1" checked>
+            <label for="radio-1">Radio button 1</label>
+          </div>
+
+
         </form>
-        <button form="my-form" name="reserved" type="submit">Забронировать</button>
+
       </div>
     </section>
 
@@ -275,7 +316,7 @@
 
             <p class="footer__text">
               <a class="footer__link-adress" href="#">г. Москва
-                ул. Аквамарина, 16</a>
+                ул.Аквамарина, 16</a>
             </p>
 
             <p class="footer__text">
