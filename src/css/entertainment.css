@@ -19,13 +19,15 @@
 .entertainment__list {
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
+  align-content: space-between;
   justify-content: space-between;
+  min-height: 495px;
 }
+/* при сжатии страницы какая-то беда с отступами */
 
-.entertainment__item {
+/* .entertainment__item:not(:last-child) {
   margin-bottom: 40px;
-}
+} */
 
 .entertainment__figure {
   position: relative;
