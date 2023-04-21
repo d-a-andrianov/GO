@@ -35,8 +35,8 @@
             <a class="header__link" href="#contacts">Контакты</a>
           </li>
         </ul>
-        <button class="header__button" name="call-me" type="submit">Заказать звонок</button>
       </nav>
+      <button class="header__button" name="call-me" type="submit">Заказать звонок</button>
     </div>
   </header>
 
@@ -49,13 +49,13 @@
 
         <div class="game-over__text">
           <div class="game-over__text-left">
-            <p class="game-over__text-left game-over__text-four">4</p>
-            <p class="game-over__text-left game-over__text-small">Тематических зала</p>
+            <p class="game-over__text-four">4</p>
+            <p class="game-over__text-small">Тематических зала</p>
           </div>
 
           <div class="game-over__text-right">
-            <p class="game-over__text-left game-over__text-new">new</p>
-            <p class="game-over__text-left game-over__text-small">Новейшая аппаратура</p>
+            <p class="game-over__text-new">new</p>
+            <p class="game-over__text-small">Новейшая аппаратура</p>
           </div>
         </div>
 
@@ -146,7 +146,7 @@
 
     <!-- Четвертая секция Бронирование зала -->
     <section id="fourth-section" class="reserved">
-      <div class="reserved__container">
+      <div class="container reserved__container">
         <h2 class="reserved__title">Забронировать зал просто</h2>
 
         <form class="reserved__form" id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="post">
@@ -241,22 +241,20 @@
               <label class="reserved__label-right-bottom">
                 <input class="reserved__input-right" type="email" name="email" required>
               </label>
-
-              <div class="reserved__button-bottom">
-                <button class="reserved__button-bottom" id="reserved" form="my-form" name="reserved"
-                  type="submit">Забронировать</button>
-
-
-              </div>
-
-
             </div>
+
+
 
             <!-- <input type="checkbox" name="agreement" value="agreement" required>Согласие на обработку данных -->
 
           </fieldset>
+          
 
         </form>
+        <div>
+          <button class="reserved__button-bottom" id="reserved" form="my-form" name="reserved"
+            type="submit">Забронировать</button>
+        </div>
 
       </div>
     </section>

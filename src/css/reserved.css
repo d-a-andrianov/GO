@@ -63,7 +63,10 @@
   display: flex;
   justify-content: space-between;
   border: 0 none;
-  padding-left: 100px;
+  /* padding-left: 100px; */
+  margin: 0 auto;
+  margin-bottom: 60px;
+  max-width: 1080px;
 }
 
 .reserved__fieldset-check {
@@ -96,13 +99,15 @@
   /* тут что-то наколхозил */
 }
 
-/* общий fieldset для 3 колонок инпутов */
+/* общий fieldset для 3 колонок инпутов выбор даты и времени */
 .reserved__fieldset-date {
   border: 0 none;
   display: flex;
   justify-content: space-between;
-  padding: 0 100px;
-  margin-bottom: 180px;
+  /* padding: 0 100px; */
+  margin: 0 auto;
+  /* margin-bottom: 180px; */
+  max-width: 980px;
   height: 228px;
 }
 
@@ -112,10 +117,11 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-right: 50px;
+  
 }
 
 .reserved__input-left-top {
-  width: 134px;
+  width: 45%;
   height: 52px;
   /* margin-bottom: 36px; */
   font-size: 18px;
@@ -123,7 +129,7 @@
 }
 
 .reserved__input-left-bottom {
-  width: 300px;
+  width: 100%;
   /* font-size: 18px;
   line-height: 28px; */
   /* height: 52px; */
@@ -144,7 +150,7 @@
 }
 
 .reserved__input-center {
-  width: 280px;
+  width: 100%;
   height: 52px;
 }
 
@@ -184,7 +190,7 @@
 }
 
 .reserved__input-right {
-  width: 300px;
+  width: 100%;
   height: 52px;
 }
 
@@ -221,7 +227,8 @@
 .reserved__button-bottom {
   /* align-self: flex-end; */
   /* justify-self: end; */
-  display: block;
+  float: right;
+  /* padding-right: 100px; */
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
@@ -229,6 +236,7 @@
   width: 300px;
   border-radius: 10px;
   color: #6C0287;
+  overflow: hidden;
   /* margin-bottom: 80px; */
 }
 

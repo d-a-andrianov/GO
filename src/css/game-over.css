@@ -35,6 +35,7 @@
   display: flex;
   max-width: 399px;
   justify-content: space-between;
+  align-content: flex-end;
   padding-top: 30px;
   z-index: 1;
   margin-bottom: 150px;
@@ -43,19 +44,23 @@
 .game-over__text-left {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  /* justify-content: flex-end;
+  align-content: space-between; */
   margin-right: 40px;
+  /* height: 209px; */
 }
 
 .game-over__text-right {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  /* align-content: space-between; */
+  /* height: 174px; */
 }
 
 .game-over__text-four {
   font-weight: 900;
-  font-size: 100px;
+  font-size: 120px;
   line-height: 100%;
   color: #CD06FF;
   text-align: center;
@@ -70,7 +75,6 @@
   line-height: 100%;
   color: #fff;
   text-align: center;
-  padding: 0 auto;
   margin: 0 auto;
 }
 
@@ -82,7 +86,7 @@
   text-align: center;
   padding: 0 auto;
   margin: 0 auto;
-  text-transform: uppercase;
+  font-variant-caps: small-caps;
 }
 
 .game-over__button-reserved {
@@ -95,11 +99,11 @@
   border-radius: 10px;
   color: #fff;
   background: #6C0287;
-
+  text-transform: uppercase;
 }
 
 .game-over__arrow {
   position: absolute;
-  right: 544px;
+  right: 569px;
   bottom: 90px;
 }
