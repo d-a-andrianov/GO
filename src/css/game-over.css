@@ -96,7 +96,9 @@
   line-height: 28px;
   height: 60px;
   width: 300px;
+  border: none;
   border-radius: 10px;
+  box-shadow: 0px 0px 20px #6C0287;
   color: #fff;
   background: #6C0287;
   text-transform: uppercase;
