@@ -1,3 +1,9 @@
+.reserved {
+  margin: 0 auto;
+  background: #440F51;
+  padding: 80px 0;
+}
+
 .reserved__container {
   max-width: 1440px;
   padding: 80px 0;
@@ -16,14 +22,18 @@
 
 .reserved__form {
   background: #440F51;
-  padding: 0 130px;
 }
 
+/* Выбери зал */
 .reserved__fieldset-halls {
   border: 0 none;
-  margin-bottom: 60px;
+  
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-bottom: 60px;
+  max-width: 1180px;
 }
 
 .reserved__legend-title {
@@ -57,6 +67,7 @@
   text-align: center;
 }
 
+/* Собери набор развлечений */
 .reserved__fieldset-entertainment {
   border: 0 none;
   margin-bottom: 60px;
@@ -66,7 +77,7 @@
   /* padding-left: 100px; */
   margin: 0 auto;
   margin-bottom: 60px;
-  max-width: 1080px;
+  max-width: 980px;
 }
 
 .reserved__fieldset-check {
@@ -99,16 +110,17 @@
   /* тут что-то наколхозил */
 }
 
+/* Выбери дату и время */
 /* общий fieldset для 3 колонок инпутов выбор даты и времени */
 .reserved__fieldset-date {
   border: 0 none;
   display: flex;
   justify-content: space-between;
-  /* padding: 0 100px; */
   margin: 0 auto;
-  /* margin-bottom: 180px; */
   max-width: 980px;
   height: 228px;
+  gap: 50px;
+  margin-bottom: 40px;
 }
 
 /* левый ряд инпутов */
@@ -116,25 +128,18 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-right: 50px;
-  
+  flex-basis: 300px;  
 }
 
 .reserved__input-left-top {
   width: 45%;
   height: 52px;
-  /* margin-bottom: 36px; */
   font-size: 18px;
   line-height: 28px;
 }
 
 .reserved__input-left-bottom {
   width: 100%;
-  /* font-size: 18px;
-  line-height: 28px; */
-  /* height: 52px; */
-
-  /* высота не встает из-за font-size: 100%*/
 }
 
 /* средний ряд инпутов */
@@ -142,7 +147,7 @@
 .reserved__fieldset-date-center {
   display: flex;
   flex-direction: column;
-  margin-right: 50px;
+  flex-basis: 280px;
 }
 
 .reserved__fieldset-date-center label:not(:last-child) {
@@ -187,6 +192,8 @@
 .reserved__fieldset-date-right {
   display: flex;
   flex-direction: column;
+  flex-basis: 300px;
+  /* задаем ширину формам */
 }
 
 .reserved__input-right {
@@ -214,7 +221,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  margin-bottom: 36px;
+
 }
 
 .reserved__label-right-bottom::before {
@@ -224,11 +231,14 @@
   bottom: 58px;
 }
 
+.reserved__button-box {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .reserved__button-bottom {
-  /* align-self: flex-end; */
-  /* justify-self: end; */
-  float: right;
-  /* padding-right: 100px; */
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
@@ -237,7 +247,6 @@
   border-radius: 10px;
   color: #6C0287;
   overflow: hidden;
-  /* margin-bottom: 80px; */
 }
 
 
