@@ -1,9 +1,123 @@
-.reserved__checkbox-focus:focus::after{
-  border: 1px solid #CD06FF;
+/* стилизация радио */
+
+/* позиционирование радио */
+.reserved__radio-focus {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-left: -42px;
 }
 
+/* стилизация самого радио */
+.reserved__radio-focus:before {
+  content: '';
+  position: absolute;
+  /* top: 5;
+  left: 5; */
+  display: block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* стилизация галочки в радио */
+.reserved__radio-focus:after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 10px;
+  height: 10px;
+  border: 6px solid black;
+  border-radius: 6px;
+  opacity: 0;
+  transform: rotate(-45deg);
+}
+
+.reserved__radio-focus:focus-visible {
+  outline: none
+}
+
+.reserved__radio-focus:checked:after {
+  opacity: 1
+}
+
+/* рамка вокруг чек-бокс при выделении */
+.reserved__radio-focus:focus:before {
+  outline: 1px solid #CD06FF;
+  outline-offset: 3px;
+}
+
+.reserved__radio-focus:hover:not(:disabled):before {
+  box-shadow: 0px 0px 10px rgba(205, 6, 255, 1);
+}
+
+.reserved__radio-focus:disabled:before {
+  background-color: #cccccc;
+}
+
+/* стилизация квадратных чекбоксов */
+
+/* позиционирование чекбокса */
 .reserved__checkbox-focus {
-  border: none;
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-left: -42px;
+}
+
+/* стилизация самого чекбокса */
+.reserved__checkbox-focus:before {
+  content: '';
+  position: absolute;
+  /* top: 5;
+  left: 5; */
+  display: block;
+  width: 27px;
+  height: 27px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* стилизация галочки в чекбоксе */
+.reserved__checkbox-focus:after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  width: 10px;
+  height: 10px;
+  border: 3px solid black;
+  border-top: none;
+  border-right: none;
+  opacity: 0;
+  transform: rotate(-45deg);
+}
+
+.reserved__checkbox-focus:focus-visible {
+  outline: none
+}
+
+.reserved__checkbox-focus:checked:after {
+  opacity: 1
+}
+
+/* рамка вокруг чек-бокс при выделении */
+.reserved__checkbox-focus:focus:before {
+  outline: 1px solid #CD06FF;
+  outline-offset: 3px;
+}
+
+.reserved__checkbox-focus:hover:not(:disabled):before {
+  box-shadow: 0px 0px 10px rgba(205, 6, 255, 1);
+}
+
+.reserved__checkbox-focus:disabled:before {
+  background-color: #cccccc;
 }
 
 /* стилизация кнопок выбора зала в форме */
@@ -165,7 +279,6 @@
 .reserved__fieldset-check input {
   margin-right: 12px;
   border: 0 none;
-  zoom: 1.5;
   /* тут что-то наколхозил */
 }
 
