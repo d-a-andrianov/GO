@@ -41,7 +41,7 @@
   font-size: 24px;
   line-height: 28px;  
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 38px;
 }
 
 .reserved__radio-halls input[type=radio] {
@@ -128,7 +128,9 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  flex-basis: 300px;  
+  flex-basis: 300px;
+  gap: 20px 15px;
+  padding-top: 16px;
 }
 
 .reserved__input-left-top {
@@ -140,6 +142,7 @@
 
 .reserved__input-left-bottom {
   width: 100%;
+  height: 52px;
 }
 
 /* средний ряд инпутов */
@@ -151,7 +154,7 @@
 }
 
 .reserved__fieldset-date-center label:not(:last-child) {
-  margin-bottom: 36px;
+  margin-bottom: 14px;
 }
 
 .reserved__input-center {
@@ -166,12 +169,12 @@
   line-height: 16px;
 }
 
-.reserved__label-center-top::before {
+/* .reserved__label-center-top::before {
   content: 'Имя';
   position: absolute;
   left: 0px;
   bottom: 58px;
-}
+} */
 
 .reserved__label-center-bottom {
   position: relative;
@@ -180,12 +183,12 @@
   line-height: 16px;
 }
 
-.reserved__label-center-bottom::before {
+/* .reserved__label-center-bottom::before {
   content: 'Фамилия';
   position: absolute;
   left: 0px;
   bottom: 58px;
-}
+} */
 
 /* правый ряд инпутов */
 
@@ -206,15 +209,15 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  margin-bottom: 36px;
+  margin-bottom: 14px;
 }
 
-.reserved__label-right-top::before {
+/* .reserved__label-right-top::before {
   content: 'Телефон';
   position: absolute;
   left: 0px;
   bottom: 58px;
-}
+} */
 
 .reserved__label-right-bottom {
   position: relative;
@@ -224,12 +227,12 @@
 
 }
 
-.reserved__label-right-bottom::before {
+/* .reserved__label-right-bottom::before {
   content: 'E-mail';
   position: absolute;
   left: 0px;
   bottom: 58px;
-}
+} */
 
 .reserved__button-box {
   max-width: 980px;
