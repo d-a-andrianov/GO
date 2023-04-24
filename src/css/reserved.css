@@ -1,3 +1,11 @@
+.reserved__checkbox-focus:focus::after{
+  border: 1px solid #CD06FF;
+}
+
+.reserved__checkbox-focus {
+  border: none;
+}
+
 .reserved {
   margin: 0 auto;
   background: #440F51;

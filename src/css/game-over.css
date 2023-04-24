@@ -1,3 +1,30 @@
+.game-over__button-reserved:hover, .game-over__button-reserved:focus {
+  background-color: #840AA3;
+  color: #FFFFFF;
+}
+
+.game-over__button-reserved:active {
+  background-color: #640AA3;
+}
+
+.game-over__arrow:hover {
+  content: '';
+  background-image: url(../img/first-section/down_hover.png);
+  cursor: pointer;
+}
+
+.game-over__arrow:focus {
+  content: '';
+  background-image: url(../img/first-section/down_focus.png);
+  cursor: pointer;
+}
+
+.game-over__arrow:active {
+  content: '';
+  background-image: url(../img/first-section/down_acive.png);
+  cursor: pointer;
+}
+
 .game-over__container {
   position: relative;
   min-height: 823px;
@@ -108,4 +135,5 @@
   position: absolute;
   right: 569px;
   bottom: 90px;
+  cursor: pointer;
 }
