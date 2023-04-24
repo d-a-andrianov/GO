@@ -6,6 +6,57 @@
   border: none;
 }
 
+/* стилизация кнопок выбора зала в форме */
+
+.reserved__radio-halls label:hover {
+  outline: 3px solid #640AA3;
+  outline-offset: -2px;
+  border-radius: 8px;
+  background-color: #EADEED;
+}
+
+.reserved__radio-halls label:focus {
+  outline: 3px solid #640AA3;
+  outline-offset: -2px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.reserved__radio-halls label:active {
+  outline: 3px solid #fff;
+  outline-offset: -2px;
+  border-radius: 8px;
+  background-color: #6C0287;
+  color: #FFFFFF;
+}
+
+/* стилизация полей ввода */
+
+.reserved__input:focus {
+  outline: 2px solid #CD06FF;
+  outline-offset: -3px;
+  /* задаем отступ для границы внутри инпута */
+}
+
+/* стилизация кнопки Забронировать в форме */
+
+.reserved__button-bottom:hover {
+  outline: 3px solid #6C0287;
+  background-color: #EADEED;
+  outline-offset: -3px;
+}
+
+.reserved__button-bottom:focus {
+  outline: 3px solid #6C0287;
+  outline-offset: -3px;
+  background-color: #FFFFFF;
+}
+
+.reserved__button-bottom:active {
+  background-color: #EADEED;
+  outline: none;
+}
+
 .reserved {
   margin: 0 auto;
   background: #440F51;
@@ -177,26 +228,12 @@
   line-height: 16px;
 }
 
-/* .reserved__label-center-top::before {
-  content: 'Имя';
-  position: absolute;
-  left: 0px;
-  bottom: 58px;
-} */
-
 .reserved__label-center-bottom {
   position: relative;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
 }
-
-/* .reserved__label-center-bottom::before {
-  content: 'Фамилия';
-  position: absolute;
-  left: 0px;
-  bottom: 58px;
-} */
 
 /* правый ряд инпутов */
 
@@ -220,13 +257,6 @@
   margin-bottom: 14px;
 }
 
-/* .reserved__label-right-top::before {
-  content: 'Телефон';
-  position: absolute;
-  left: 0px;
-  bottom: 58px;
-} */
-
 .reserved__label-right-bottom {
   position: relative;
   font-weight: 700;
@@ -234,13 +264,6 @@
   line-height: 16px;
 
 }
-
-/* .reserved__label-right-bottom::before {
-  content: 'E-mail';
-  position: absolute;
-  left: 0px;
-  bottom: 58px;
-} */
 
 .reserved__button-box {
   max-width: 980px;
@@ -257,7 +280,7 @@
   width: 300px;
   border-radius: 10px;
   color: #6C0287;
-  overflow: hidden;
+  border: none;
 }
 
 

@@ -1,6 +1,7 @@
 .header__button:hover, .header__button:focus {
   background-color: #6C0287;
   color: #FFFFFF;
+  border: none;
 }
 
 .header__button:active {

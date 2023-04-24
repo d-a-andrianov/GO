@@ -1,3 +1,23 @@
+.questions__item:hover:nth-child(even):after {
+  content: '';
+  background-image: url(../img/seventh-section/open_hover.png);
+}
+
+.questions__item:hover:nth-child(odd):after {
+  content: '';
+  background-image: url(../img/seventh-section/open-purple_hover.png);
+}
+
+.questions__item:active:nth-child(even):after {
+  content: '';
+  background-image: url(../img/seventh-section/open_active.svg);
+}
+
+.questions__item:active:hover:nth-child(odd):after {
+  content: '';
+  background-image: url(../img/seventh-section/open-purple_active.png);
+}
+
 .questions__title {
   font-weight: 700;
   font-size: 40px;
@@ -39,14 +59,15 @@
   position: relative;
   background-repeat: no-repeat;
   background-size: contain;
+  cursor: pointer;
 }
 
 .questions__item:nth-child(even):after {
   content: '';
-  background-image: url(../img/open.svg);
+  background-image: url(../img/seventh-section/open.svg);
 }
 
 .questions__item:nth-child(odd):after {
   content: '';
-  background-image: url(../img/open-purple.svg);
+  background-image: url(../img/seventh-section/open-purple.svg);
 }
