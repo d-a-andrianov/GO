@@ -12,7 +12,7 @@
 /* стилизация самого радио */
 .reserved__radio-focus:before {
   content: '';
-  position: absolute;
+  /* position: absolute; */
   /* top: 5;
   left: 5; */
   display: block;
@@ -74,8 +74,8 @@
 .reserved__checkbox-focus:before {
   content: '';
   position: absolute;
-  /* top: 5;
-  left: 5; */
+  top: 5;
+  left: 5;
   display: block;
   width: 27px;
   height: 27px;
@@ -251,12 +251,14 @@
   margin: 0 auto;
   margin-bottom: 60px;
   max-width: 980px;
+  gap: 100px;
 }
 
 .reserved__fieldset-check {
   display: flex;
   flex-direction: column;
   border: 0 none;
+  /* margin: 0 auto; */
 }
 
 .reserved__legend-check {
@@ -277,7 +279,9 @@
 }
 
 .reserved__fieldset-check input {
-  margin-right: 12px;
+  /* display: flex; */
+  margin: 0 auto;
+  /* margin-right: 10px; */
   border: 0 none;
   /* тут что-то наколхозил */
 }

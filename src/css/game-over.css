@@ -4,25 +4,24 @@
 }
 
 .game-over__button-reserved:active {
+  display: block;
   background-color: #640AA3;
 }
 
 .game-over__arrow:hover {
   content: '';
-  background-image: url(../img/first-section/down_hover.png);
-  cursor: pointer;
+  background-image: url(../img/first-section/down_hover.svg);
 }
 
 .game-over__arrow:focus {
   content: '';
-  background-image: url(../img/first-section/down_focus.png);
-  cursor: pointer;
+  background-image: url(../img/first-section/down_focus.svg);
+  outline: 1px solid #CD06FF;
 }
 
 .game-over__arrow:active {
   content: '';
-  background-image: url(../img/first-section/down_acive.png);
-  cursor: pointer;
+  background-image: url(../img/first-section/down_acive.svg);
 }
 
 .game-over__container {
@@ -121,8 +120,8 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  height: 60px;
-  width: 300px;
+  height: 80px;
+  width: 374px;
   border: none;
   border-radius: 10px;
   box-shadow: 0px 0px 20px #6C0287;
@@ -131,9 +130,31 @@
   text-transform: uppercase;
 }
 
-.game-over__arrow {
+.game-over__link-arrow {
+  
+}
+
+/* .game-over__arrow {
+  display: block;
   position: absolute;
   right: 569px;
   bottom: 90px;
+
+} */
+
+.game-over__arrow {
+  /* display:block; */
+  width: 97px;
+  height: 97px;
+  background: url("../img/first-section/down.svg");
+  position: absolute;
+  right: calc(50% - 48.5px);
+  /* bottom: 90px; */
+  z-index: 1;
+  background-repeat: no-repeat;
+  outline: 1px solid transparent;
+  transition-property: color, outline-color;
+  transition-duration: 0.3s, 0.2s;
+  transition-timing-function: ease-in-out;
   cursor: pointer;
 }
