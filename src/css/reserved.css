@@ -280,13 +280,13 @@
   margin-bottom: 20px;
 }
 
+/* стилизация чекбоксов и радио */
 .reserved__radio-focus, .reserved__checkbox-focus {
   position: absolute;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   margin-left: -40px;
-  /* тут что-то наколхозил */
 }
 
 /* Выбери дату и время */
