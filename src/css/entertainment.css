@@ -25,7 +25,7 @@
   position: relative;
 }
 
-/* увеличение карточек при наведении */
+/* анимации. увеличение карточек при наведении */
 .entertainment__figure:hover {
   transform: scale(1.1, 1.1);
 }
