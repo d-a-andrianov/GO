@@ -243,11 +243,9 @@
 /* Собери набор развлечений */
 .reserved__fieldset-entertainment {
   border: 0 none;
-  margin-bottom: 60px;
   display: flex;
   justify-content: space-between;
   border: 0 none;
-  /* padding-left: 100px; */
   margin: 0 auto;
   margin-bottom: 60px;
   max-width: 980px;
@@ -268,21 +266,26 @@
   margin-bottom: 23px;
 }
 
-.reserved__fieldset-check label {
-  font-size: 22px;
-  line-height: 100%;
+.reserved__label-entertainment {
+  position: relative;
+  display: block;
+  margin-bottom: 26px;
+  padding-left: 40px;
   font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
 }
 
-.reserved__fieldset-check label:not(:last-child) {
+.reserved__label-entertainment:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.reserved__fieldset-check input {
-  /* display: flex; */
-  margin: 0 auto;
-  /* margin-right: 10px; */
-  border: 0 none;
+.reserved__radio-focus, .reserved__checkbox-focus {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-left: -40px;
   /* тут что-то наколхозил */
 }
 

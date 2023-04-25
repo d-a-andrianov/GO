@@ -21,7 +21,7 @@
 
 .game-over__arrow:active {
   content: '';
-  background-image: url(../img/first-section/down_acive.svg);
+  background-image: url(../img/first-section/down_active.svg);
 }
 
 .game-over__container {
