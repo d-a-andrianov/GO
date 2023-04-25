@@ -1,11 +1,3 @@
-.container {}
-
-.entertainment {}
-
-.entertainment__container {
-
-}
-
 .entertainment__title {
   font-weight: Bold;
   font-size: 40px;
@@ -33,6 +25,12 @@
   position: relative;
 }
 
+/* увеличение карточек при наведении */
+.entertainment__figure:hover {
+  transform: scale(1.1, 1.1);
+}
+
+
 .entertainment__img {}
 
 .entertainment__item {}
@@ -46,4 +44,3 @@
   Line-height: 28px;
   white-space: pre-line;
 }
-
