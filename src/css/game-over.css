@@ -1,6 +1,12 @@
-.game-over__button-reserved:hover, .game-over__button-reserved:focus {
+.game-over__button-reserved:hover {
   background-color: #840AA3;
   color: #FFFFFF;
+}
+
+.game-over__button-reserved:focus {
+  background-color: #840AA3;
+  color: #FFFFFF;
+  outline: none;
 }
 
 .game-over__button-reserved:active {
@@ -16,7 +22,7 @@
 .game-over__arrow:focus {
   content: '';
   background-image: url(../img/first-section/down_focus.svg);
-  outline: 1px solid #CD06FF;
+  outline-color: #CD06FF;
 }
 
 .game-over__arrow:active {
@@ -143,13 +149,13 @@
 } */
 
 .game-over__arrow {
-  /* display:block; */
+  display:block;
   width: 97px;
   height: 97px;
   background: url("../img/first-section/down.svg");
   position: absolute;
   right: calc(50% - 48.5px);
-  /* bottom: 90px; */
+  bottom: 90px;
   z-index: 1;
   background-repeat: no-repeat;
   outline: 1px solid transparent;

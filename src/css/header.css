@@ -1,7 +1,14 @@
-.header__button:hover, .header__button:focus {
+.header__button:hover {
   background-color: #6C0287;
   color: #FFFFFF;
   border: none;
+}
+
+.header__button:focus {
+  background-color: #6C0287;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
 }
 
 .header__button:active {
