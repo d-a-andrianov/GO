@@ -1,3 +1,24 @@
+.header__link:hover {
+  background: #EADEED;
+  color: #000000;
+  outline: 1px solid #640AA3;
+  outline-offset: 3px;
+}
+
+.header__link:focus {
+  background: #FFFFFF;
+  color: #000000;
+  outline: 1px solid #640AA3;
+  outline-offset: 3px;
+}
+
+.header__link:active {
+  background: #6C0287;
+  color: #FFFFFF;
+  outline: 1px solid #FFFFFF;
+  outline-offset: 3px;
+}
+
 .header__button:hover {
   background-color: #6C0287;
   color: #FFFFFF;
