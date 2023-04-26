@@ -23,19 +23,15 @@
 
 .entertainment__figure {
   position: relative;
+  /* анимации. увеличение карточек при наведении */
+  transition-duration: 0.5s;
+  transition-delay: 0.1s;
 }
 
 /* анимации. увеличение карточек при наведении */
 .entertainment__figure:hover {
   transform: scale(1.1, 1.1);
-  transition-duration: 0.5s;
-  transition-delay: 0.1s;
 }
-
-
-.entertainment__img {}
-
-.entertainment__item {}
 
 .entertainment__figcaption {
   position: absolute;

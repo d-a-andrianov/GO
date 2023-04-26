@@ -20,10 +20,13 @@
   border-radius: 50%;
   background-color: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  /* убираем черную рамку при нажатии */
+  outline-color: #440F51;
   /* анимация рамки и тени чекбокса */
   transition-duration: 0.35s, 0.35s;
   transition-property: box-shadow, outline-color;
-  transition-delay: 0.1s;
+  /* плавный переход */
+  transition-timing-function: ease-in-out;
 }
 
 /* стилизация черной точки выделения в радио */
@@ -89,10 +92,13 @@
   height: 27px;
   background-color: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  /* убираем черную рамку при нажатии */
+  outline-color: #440F51;
   /* анимация рамки и тени чекбокса */
   transition-duration: 0.35s, 0.35s;
   transition-property: box-shadow, outline-color;
-  transition-delay: 0.1s;
+  /* плавный переход */
+  transition-timing-function: ease-in-out;
 }
 
 /* стилизация галочки в чекбоксе */
