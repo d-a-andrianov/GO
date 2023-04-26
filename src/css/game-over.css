@@ -134,6 +134,9 @@
   color: #fff;
   background: #6C0287;
   text-transform: uppercase;
+  transition-duration: 0.35s, 0.35s;
+  transition-property: background-color, color;
+  transition-delay: 0.1s;
 }
 
 .game-over__link-arrow {
@@ -159,8 +162,10 @@
   z-index: 1;
   background-repeat: no-repeat;
   outline: 1px solid transparent;
-  transition-property: color, outline-color;
-  transition-duration: 0.3s, 0.2s;
-  transition-timing-function: ease-in-out;
+  
+  /* анимация для стрелки вниз */
+  transition-duration: 0.35s, 0.35s;
+  transition-property: background-image, outline;
+  transition-delay: 0.1s;
   cursor: pointer;
 }
