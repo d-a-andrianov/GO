@@ -54,6 +54,9 @@
 
 .header__link {
   color: #FFFFFF;
+  transition-duration: 0.4s, 0.4s, 0.4s;
+  transition-property: background-color, color, outline;
+  transition-timing-function: ease-in-out;
 }
 
 .header__list {
