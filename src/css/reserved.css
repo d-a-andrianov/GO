@@ -18,10 +18,10 @@
   width: 27px;
   height: 27px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
   /* убираем черную рамку при нажатии */
-  outline-color: #440F51;
+  outline-color: var(--deep-purple-color);
   /* анимация рамки и тени чекбокса */
   transition-duration: 0.35s, 0.35s;
   transition-property: box-shadow, outline-color;
@@ -37,7 +37,7 @@
   left: 8px;
   width: 10px;
   height: 10px;
-  border: 6px solid black;
+  border: 6px solid var(--black-color);
   border-radius: 6px;
   opacity: 0;
   transform: rotate(-45deg);
@@ -57,7 +57,7 @@
 
 /* кружок вокруг чек-бокс при выделении */
 .reserved__radio-focus:focus:before {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--light-purple-color);
   outline-offset: 3px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .reserved__radio-focus:disabled:before {
-  background-color: #cccccc;
+  background-color: var(--gray-color);
 }
 
 /* стилизация квадратиков чекбоксов */
@@ -90,10 +90,10 @@
   display: block;
   width: 27px;
   height: 27px;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
   /* убираем черную рамку при нажатии */
-  outline-color: #440F51;
+  outline-color: var(--deep-purple-color);
   /* анимация рамки и тени чекбокса */
   transition-duration: 0.35s, 0.35s;
   transition-property: box-shadow, outline-color;
@@ -109,7 +109,7 @@
   left: 8px;
   width: 10px;
   height: 10px;
-  border: 3px solid black;
+  border: 3px solid var(--black-color);
   border-top: none;
   border-right: none;
   opacity: 0;
@@ -130,7 +130,7 @@
 
 /* рамка вокруг чек-бокс при выделении */
 .reserved__checkbox-focus:focus:before {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--light-purple-color);
   outline-offset: 3px;
 }
 
@@ -140,37 +140,37 @@
 }
 
 .reserved__checkbox-focus:disabled:before {
-  background-color: #cccccc;
+  background-color: var(--gray-color);
 }
 
 /* стилизация кнопок выбора зала в форме */
 
 .reserved__label-halls:hover {
-  outline: 3px solid #640AA3;
+  outline: 3px solid var(--violet-color);
   outline-offset: -2px;
   border-radius: 8px;
-  background-color: #EADEED;
+  background-color: var(--white-purple-color);
 }
 
 .reserved__label-halls:focus {
-  outline: 3px solid #640AA3;
+  outline: 3px solid var(--violet-color);
   outline-offset: -2px;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: var(--white-color);
 }
 
 .reserved__label-halls:active {
-  outline: 3px solid #fff;
+  outline: 3px solid var(--white-color);
   outline-offset: -2px;
   border-radius: 8px;
-  background-color: #6C0287;
-  color: #FFFFFF;
+  background-color: var(--dark-purple-color);
+  color: var(--white-color);
 }
 
 /* стилизация полей ввода */
 
 .reserved__input:focus {
-  outline: 2px solid #CD06FF;
+  outline: 2px solid var(--light-purple-color);
   /* задаем отступ для границы внутри инпута */
   outline-offset: -3px;
   /* анимация полей ввода (инпутов) */
@@ -182,25 +182,25 @@
 /* стилизация кнопки Забронировать в форме */
 
 .reserved__button-bottom:hover {
-  outline: 3px solid #6C0287;
-  background-color: #EADEED;
+  outline: 3px solid var(--dark-purple-color);
+  background-color: var(--white-purple-color);
   outline-offset: -3px;
 }
 
 .reserved__button-bottom:focus {
-  outline: 3px solid #6C0287;
+  outline: 3px solid var(--dark-purple-color);
   outline-offset: -3px;
-  background-color: #FFFFFF;
+  background-color: var(--white-color);
 }
 
 .reserved__button-bottom:active {
-  background-color: #EADEED;
+  background-color: var(--white-purple-color);
   outline: none;
 }
 
 .reserved {
   margin: 0 auto;
-  background: #440F51;
+  background: var(--deep-purple-color);
   padding: 80px 0;
 }
 
@@ -208,7 +208,7 @@
   max-width: 1440px;
   padding: 80px 0;
   margin: 0 auto;
-  background: #440F51;
+  background: var(--deep-purple-color);
 }
 
 .reserved__title {
@@ -221,7 +221,7 @@
 }
 
 .reserved__form {
-  background: #440F51;
+  background: var(--deep-purple-color);
 }
 
 /* Выбери зал */
@@ -255,13 +255,13 @@
 	cursor: pointer;
 	padding: 7px 15px;
 	line-height: 34px;
-	border: 1px solid #999;
+	/* border: 1px solid #999; */
 	border-radius: 6px;
 	user-select: none;
   width: 250px;
   height: 55px;
-  background-color: #fff;
-  color: #000000;
+  background-color: var(--white-color);
+  color: var(--black-color);
   font-size: 30px;
   font-weight: 700;
   line-height: 40px;
@@ -423,7 +423,7 @@
   height: 60px;
   width: 300px;
   border-radius: 10px;
-  color: #6C0287;
+  color: var(--dark-purple-color);
   border: none;
   /* анимация кнопки */
   transition-duration: 0.35s, 0.35s, 0.35s, 1ms;

@@ -1,17 +1,17 @@
 .game-over__button-reserved:hover {
-  background-color: #840AA3;
-  color: #FFFFFF;
+  background-color: var(--purple-color);
+  color: var(--white-color);
 }
 
 .game-over__button-reserved:focus {
-  background-color: #840AA3;
-  color: #FFFFFF;
+  background-color: var(--purple-color);
+  color: var(--white-color);
   outline: none;
 }
 
 .game-over__button-reserved:active {
   display: block;
-  background-color: #640AA3;
+  background-color: var(--violet-color);
 }
 
 .game-over__arrow:hover {
@@ -22,7 +22,7 @@
 .game-over__arrow:focus {
   content: '';
   background-image: url(../img/first-section/down_focus.svg);
-  outline-color: #CD06FF;
+  outline-color: var(--light-purple-color);
 }
 
 .game-over__arrow:active {
@@ -94,7 +94,7 @@
   font-weight: 900;
   font-size: 120px;
   line-height: 100%;
-  color: #CD06FF;
+  color: var(--light-purple-color);
   text-align: center;
   padding: 0 auto;
   margin: 0 auto;
@@ -105,7 +105,7 @@
   
   font-size: 30px;
   line-height: 100%;
-  color: #fff;
+  color: var(--white-color);
   text-align: center;
   margin: 0 auto;
 }
@@ -114,7 +114,7 @@
   font-weight: 900;
   font-size: 75px;
   line-height: 100%;
-  color: #CD06FF;
+  color: var(--light-purple-color);
   text-align: center;
   padding: 0 auto;
   margin: 0 auto;
@@ -130,9 +130,9 @@
   width: 374px;
   border: none;
   border-radius: 10px;
-  box-shadow: 0px 0px 20px #6C0287;
-  color: #fff;
-  background: #6C0287;
+  box-shadow: 0px 0px 20px var(--dark-purple-color);
+  color: var(--white-color);
+  background: var(--dark-purple-color);
   text-transform: uppercase;
   transition-duration: 0.35s, 0.35s;
   transition-property: background-color, color;

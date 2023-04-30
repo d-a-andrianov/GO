@@ -1,3 +1,7 @@
+.entertainment {
+  min-height: 808px;
+}
+
 .entertainment__title {
   font-weight: Bold;
   font-size: 40px;
@@ -5,7 +9,7 @@
   text-align: center;
   text-transform: uppercase;
   white-space: pre-line;
-  margin-bottom: 41px;
+  margin-bottom: 40px;
 }
 
 .entertainment__list {
@@ -13,9 +17,19 @@
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: space-between;
-  min-height: 495px;
+  /* min-height: 495px; */
+  gap: 40px 0px;
 }
-/* при сжатии страницы какая-то беда с отступами */
+
+.entertainment__item {
+  max-height: 228px;
+}
+
+.entertainment__item:nth-child(3n+2) {
+  padding-top: 70px;
+  /* gap: 70px 0px; */
+  /* остальне карточки так же двигаются вниз */
+}
 
 /* .entertainment__item:not(:last-child) {
   margin-bottom: 40px;
@@ -23,6 +37,7 @@
 
 .entertainment__figure {
   position: relative;
+  max-height: 228px;
   /* анимации. увеличение карточек при наведении */
   transition-duration: 0.5s;
   transition-delay: 0.1s;

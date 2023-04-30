@@ -1,39 +1,39 @@
 .header__link:hover {
-  background: #EADEED;
-  color: #000000;
-  outline: 1px solid #640AA3;
+  background: var(--white-purple-color);
+  color: var(--black-color);
+  outline: 1px solid var(--violet-color);
   outline-offset: 3px;
 }
 
 .header__link:focus {
-  background: #FFFFFF;
-  color: #000000;
-  outline: 1px solid #640AA3;
+  background: var(--white-color);
+  color: var(--black-color);
+  outline: 1px solid var(--violet-color);
   outline-offset: 3px;
 }
 
 .header__link:active {
-  background: #6C0287;
-  color: #FFFFFF;
-  outline: 1px solid #FFFFFF;
+  background: var(--dark-purple-color);
+  color: var(--white-color);
+  outline: 1px solid var(--white-color);
   outline-offset: 3px;
 }
 
 .header__button:hover {
-  background-color: #6C0287;
-  color: #FFFFFF;
+  background-color: var(--dark-purple-color);
+  color: var(--white-color);
   border: none;
 }
 
 .header__button:focus {
-  background-color: #6C0287;
-  color: #FFFFFF;
+  background-color: var(--dark-purple-color);
+  color: var(--white-color);
   border: none;
   outline: none;
 }
 
 .header__button:active {
-  border: 1px solid #000000;
+  border: 1px solid var(--black-color);
 }
 
 .header__container {
@@ -53,7 +53,7 @@
 }
 
 .header__link {
-  color: #FFFFFF;
+  color: var(--white-color);
   transition-duration: 0.4s, 0.4s, 0.4s;
   transition-property: background-color, color, outline;
   transition-timing-function: ease-in-out;
@@ -81,9 +81,9 @@
   font-size: 22px;
   Line-height: 30px;
   text-transform: uppercase;
-  background: #1B1A1B;
-  color: #FFFFFF;
-  border: 3px #CD06FF solid;
+  background: var(--background-color);
+  color: var(--white-color);
+  border: 3px var(--light-purple-color) solid;
   border-radius: 10px;
   /* анимация кнопки */
   transition-duration: 0.35s, 0.35s;

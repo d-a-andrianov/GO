@@ -1,3 +1,9 @@
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(#1B1A1B, #370A37);
+}
+
 /* Анимации иконок соц сетей */
 .footer__social-link:hover {
   display: block;
@@ -7,14 +13,14 @@
 /* Анимации иконок соц сетей */
 .footer__social-link:focus {
   display: block;
-  outline-color:  #CD06FF;
+  outline-color: var(--light-purple-color);
   color: #EADEED;
 }
 
 /* Анимации иконок соц сетей */
 .footer__social-link:active {
   display: block;
-  color: #CD06FF;
+  color: var(--light-purple-color);
 }
 
 /* иконки соц сетей */
@@ -30,12 +36,6 @@
   transition-duration: 0.35s;
   transition-property: color, outline-color;
   transition-delay: 0.1s;
-}
-
-footer {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background: linear-gradient(#1B1A1B, #370A37);
 }
 
 .footer__title {
@@ -159,4 +159,8 @@ footer {
 
 .footer__author-right {
   text-align: right;
+}
+
+.test {
+  counter-reset: count 0;
 }
