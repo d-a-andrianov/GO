@@ -16,24 +16,32 @@
 .about__img {
   max-width: 600px;
   display: inline-block;
-  margin-right: 80px;
+  margin-right: 75px;
+  padding-bottom: 37px;
   
 }
 
 .about__text {
   margin-bottom: 70px;
   display: block;
+  padding-top: 5px;
 }
 
 .about__item {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  padding-top: 2px;
+  white-space: pre-wrap;
 
 }
 
 .about__item:not(:last-child) {
-  margin-bottom: 27px;
+  margin-bottom: 19px;
+}
+
+.about__item-bottom {
+  padding-top: 9px;
 }
 
 .about__blockquote {
@@ -75,6 +83,7 @@
   object-fit: cover;
   object-position: top;
   margin-right: 30px;
+
 }
 
 .about__text-block {
