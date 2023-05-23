@@ -92,8 +92,8 @@
 
 .game-over__text-four {
   font-weight: 900;
-  font-size: 120px;
-  line-height: 100%;
+  font-size: 100px;
+  line-height: 141px;
   color: var(--light-purple-color);
   text-align: center;
   padding: 0 auto;
@@ -104,7 +104,7 @@
 .game-over__text-small {
   
   font-size: 30px;
-  line-height: 100%;
+  line-height: 35px;
   color: var(--white-color);
   text-align: center;
   margin: 0 auto;
@@ -113,7 +113,7 @@
 .game-over__text-new {
   font-weight: 900;
   font-size: 75px;
-  line-height: 100%;
+  line-height: 106px;
   color: var(--light-purple-color);
   text-align: center;
   padding: 0 auto;
@@ -124,8 +124,8 @@
 .game-over__button-reserved {
   display: block;
   font-weight: 700;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 26px;
+  line-height: 30px;
   height: 80px;
   width: 374px;
   border: none;
@@ -162,7 +162,7 @@
   z-index: 1;
   background-repeat: no-repeat;
   outline: 1px solid transparent;
-  
+
   /* анимация для стрелки вниз */
   transition-duration: 0.35s, 0.35s;
   transition-property: background-image, outline;

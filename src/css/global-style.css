@@ -1,6 +1,8 @@
 html {
     position: relative;
     box-sizing: border-box;
+    /* плавная прокрутка при клике по ссылке */
+    scroll-behavior: smooth;
   }
   
   *,

@@ -6,7 +6,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  margin-left: -42px;
+  margin-left: -35px;
 }
 
 .reserved__radio-focus:before {
@@ -78,7 +78,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  margin-left: -42px;
+  margin-left: -38px;
 }
 
 /* стилизация самого чекбокса */
@@ -88,8 +88,8 @@
   top: 5;
   left: 5; */
   display: block;
-  width: 27px;
-  height: 27px;
+  width: 24px;
+  height: 24px;
   background-color: var(--white-color);
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
   /* убираем черную рамку при нажатии */
@@ -217,7 +217,7 @@
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 47px;
 }
 
 .reserved__form {
@@ -242,6 +242,14 @@
   line-height: 28px;  
   text-align: center;
   margin-bottom: 38px;
+}
+
+.reserved__legend-title-bottom {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;  
+  text-align: center;
+  margin-bottom: 42px;
 }
 
 /* делаем из радио элементов кнопки, убираем точки */
@@ -280,7 +288,7 @@
   justify-content: space-between;
   border: 0 none;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 39px;
   max-width: 980px;
   gap: 100px;
 }
@@ -290,13 +298,15 @@
   flex-direction: column;
   border: 0 none;
   /* margin: 0 auto; */
+  margin-right: 10px;
 }
 
 .reserved__legend-check {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  margin-bottom: 23px;
+  margin-bottom: 27px;
+  padding-top: 2px;
 }
 
 .reserved__label-entertainment {
@@ -307,6 +317,7 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
+  padding-left: 35px;
 }
 
 .reserved__label-entertainment:not(:last-child) {
@@ -341,6 +352,7 @@
   height: 52px;
   font-size: 18px;
   line-height: 28px;
+  margin-bottom: 11px;
 }
 
 .reserved__input-left-bottom {
@@ -362,7 +374,7 @@
 
 .reserved__input-center {
   width: 100%;
-  height: 52px;
+  height: 56px;
 }
 
 .reserved__label-center-top {
@@ -390,7 +402,7 @@
 
 .reserved__input-right {
   width: 100%;
-  height: 52px;
+  height: 56px;
 }
 
 .reserved__label-right-top {
@@ -429,6 +441,7 @@
   transition-duration: 0.35s, 0.35s, 0.35s, 1ms;
   transition-property: background-color, color, outline-offset, outline;
   transition-delay: 0.1s;
+  text-transform: uppercase;
 }
 
 
