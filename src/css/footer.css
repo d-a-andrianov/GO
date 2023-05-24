@@ -1,5 +1,5 @@
 footer {
-  padding-top: 50px;
+  padding-top: 54px;
   padding-bottom: 50px;
   background: linear-gradient(#1B1A1B, #370A37);
 }
@@ -44,13 +44,13 @@ footer {
   line-height: 50px;
   text-align: center; 
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 46px;
 }
 
 .footer__contacts {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 156px;
+  margin-bottom: 149px;
 }
 
 .footer__adress {
@@ -59,16 +59,16 @@ footer {
 }
 
 .footer__adress-top {
-  padding-left: 65px;
+  padding-left: 61px;
   margin-bottom: 35px;
 }
 
 .footer__text:not(:last-child) {
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 .footer__text:first-child {
-  margin-bottom: 39px;
+  margin-bottom: 43px;
 }
 
 .footer__link-adress {
@@ -90,8 +90,8 @@ footer {
   position: absolute;
   height: 50px;
   width: 50px;
-  left: -65px;
-  bottom: 0px;
+  left: -64px;
+  bottom: -7px;
 }
 
 .footer__link-phone {
@@ -111,8 +111,8 @@ footer {
   position: absolute;
   height: 50px;
   width: 50px;
-  left: -65px;
-  bottom: -20px;
+  left: -63px;
+  bottom: -21px;
 }
 
 .footer__link-mail {
@@ -132,8 +132,8 @@ footer {
   position: absolute;
   height: 50px;
   width: 50px;
-  left: -65px;
-  bottom: -20px;
+  left: -59px;
+  bottom: -22px;
 }
 
 .footer__social {
@@ -142,6 +142,7 @@ footer {
   width: 289px;
   height: 49px;
   list-style: none;
+  padding-top: 5px;
 }
 
 .footer__item:not(:last-child) {
