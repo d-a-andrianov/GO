@@ -4,30 +4,66 @@
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 47px;
+}
+
+.reviews__list {
+  display: grid;
+  padding: 0px 0 0 99px;
+  grid-template-columns: minmax(195px, 424px) minmax(680px, 850px);
+  grid-template-rows: repeat(3, 319px);
+  gap: 51px 6px;
+  grid-template-areas:
+      "figure-1 reviews-1"
+      "figure-2 reviews-2"
+      "figure-3 reviews-3";
 }
 
 .reviews__item:not(:last-child) {
   margin-bottom: 50px;
 }
 
+.reviews__item-1 {
+  grid-area: reviews-1;
+}
+
+.reviews__item-2 {
+  grid-area: reviews-2;
+}
+
+.reviews__item-3 {
+  grid-area: reviews-3;
+}
+
+.reviews__figure-1 {
+  grid-area: figure-1;
+}
+
+.reviews__figure-2 {
+  grid-area: figure-2;
+}
+
+.reviews__figure-3 {
+  grid-area: figure-3;
+}
+
 .reviews__figure {
-  display: inline-block;
-  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
 }
 
 .reviews__figcaption {
   text-align: center;
-  font-style: Regular;
   font-size: 20px;
   line-height: 28px;
 }
 
 .reviews__text {
-  display: inline-block;
+  /* display: inline-block; */
   max-width: 680px;
   padding-top: 52px;
-  vertical-align: top;
+  /* vertical-align: top; */
   font-size: 20px;
   line-height: 28px;
 }
@@ -38,7 +74,7 @@
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
-  margin-bottom: 11px;
+  margin-bottom: 8px;
 }
 
 /* градиент над фото посетителей в отзывах */
