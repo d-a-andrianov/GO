@@ -86,3 +86,9 @@
   transition-property: background-image;
   transition-delay: 0.1s;
 }
+
+@media (max-width: 1200px) {
+  .questions {
+    display: none;
+  }
+}

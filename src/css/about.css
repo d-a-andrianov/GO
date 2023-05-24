@@ -113,3 +113,9 @@
   /* padding-left: 17px; */
   /* display: inline-block; */
 }
+
+@media (max-width: 1200px) {
+  .about{
+    display: none;
+  }
+}

@@ -86,6 +86,13 @@ html {
     margin: 0 auto;
   }
 
+  @media (max-width: 1200px) {
+    .container {
+      max-width: 964px;
+      padding: 0 30px;
+    }
+  }
+
   section {
     padding: 50px 0;
   }

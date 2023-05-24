@@ -169,3 +169,11 @@
   transition-delay: 0.1s;
   cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+
+  .game-over {
+    display: none;
+  }
+}
+

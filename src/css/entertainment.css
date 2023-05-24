@@ -58,3 +58,11 @@
   Line-height: 28px;
   white-space: pre-line;
 }
+
+
+@media (max-width: 1200px) {
+
+  .entertainment {
+    display: none;
+  }
+}

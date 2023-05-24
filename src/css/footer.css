@@ -165,3 +165,10 @@ footer {
 .test {
   counter-reset: count 0;
 }
+
+@media (max-width: 1200px) {
+
+  .footer {
+    display: none;
+  }
+}

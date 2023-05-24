@@ -91,3 +91,38 @@
   transition-delay: 0.1s;
   padding-top: 7px;
 }
+
+@media (max-width: 1200px) {
+
+  .header {
+    padding-top: 29px;
+  }
+
+  .header__button {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 4px;
+    border-radius: 8px;
+  }
+
+  .header__list {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .header__img {
+    width: 88px;
+    height: 55px;
+    padding-top: 2px;
+  }
+
+  .header__button {
+    width: 229px;
+    height: 45px;
+  }
+
+  .header__list{
+    gap: 21px;
+  }
+
+}
