@@ -4,59 +4,31 @@
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 47px;
+  margin-bottom: 48px;
 }
 
-.reviews__list {
-  display: grid;
-  padding: 0px 0 0 99px;
-  grid-template-columns: minmax(980px, 424px);
-  grid-template-rows: repeat(3, 319px);
-  gap: 50px;
-  grid-template-areas:
-      "item-1"
-      "item-2"
-      "item-3";
-}
-
-.reviews__item-1 {
-  grid-area: item-1;
-}
-
-.reviews__item-2 {
-  grid-area: item-2;
-}
-
-.reviews__item-3 {
-  grid-area: item-3;
-}
-
-.reviews__item {
-  display: flex;
-  gap: 20px;
-}
-
-/* .reviews__item:not(:last-child) {
+.reviews__item:not(:last-child) {
   margin-bottom: 50px;
-} */
+}
 
 .reviews__figure {
-  display: flex;
-  flex-direction: column;
-  max-width: 280px;
+  display: inline-block;
+  margin-right: 16px;
+  padding-left: 99px;
 }
 
 .reviews__figcaption {
   text-align: center;
+  font-style: Regular;
   font-size: 20px;
   line-height: 28px;
 }
 
 .reviews__text {
-  /* display: inline-block; */
+  display: inline-block;
   max-width: 680px;
   padding-top: 52px;
-  /* vertical-align: top; */
+  vertical-align: top;
   font-size: 20px;
   line-height: 28px;
 }
@@ -67,18 +39,22 @@
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
-  margin-bottom: 8px;
+  margin-bottom: 7px;
+}
+
+.reviews__img-1 {
+  object-position: 1px -3px;
 }
 
 .reviews__img-2 {
-  object-position: 1px -41px;
+  object-position: 1px -42px;
 }
 
 .reviews__img-3 {
-  object-position: 1px -82px;
+  object-position: 1px -86px;
 }
 
-/* градиент над фото посетителей в отзывах */
+/* градиент надо фото посетителей в отзывах */
 .reviews__filter {
   position: relative;
 }
