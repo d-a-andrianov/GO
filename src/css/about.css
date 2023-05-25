@@ -109,3 +109,10 @@
   max-width: 240px;
   display: inline-block;
 }
+
+@media (max-width: 1200px) {
+
+  .about {
+    display: none;
+  }
+}
