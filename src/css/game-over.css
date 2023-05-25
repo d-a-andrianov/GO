@@ -38,7 +38,7 @@
 
 .game-over__container::before {
   content: '';
-  background-image: url(..img/first-section/banner.png);
+  background-image: url(../img/first-section/banner.png);
   background-repeat: no-repeat;
   position: absolute;
   height: 762px;
