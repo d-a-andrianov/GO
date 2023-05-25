@@ -38,7 +38,7 @@
 
 .game-over__container::before {
   content: '';
-  background-image: url(../img/first-section/banner.png);
+  background-image: url(/src/img/first-section/banner.png);
   background-repeat: no-repeat;
   position: absolute;
   height: 762px;
@@ -173,7 +173,71 @@
 @media (max-width: 1200px) {
 
   .game-over {
-    display: none;
+    /* display: none; */
+  }
+
+  .game-over__title {
+    font-size: 120px;
+    line-height: 120px;
+  }
+
+  .game-over__container {
+    max-height: 583px;
+  }
+  
+  .game-over__container::before {
+    width: 453px;
+    height: 520px;
+    background-size: 457px 520px;
+    /* background-size: contain; */
+    right: 33px;
+    bottom: 240px;
+  }
+  
+  .game-over__text-undertitle {
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 22px;
+  }
+
+  .game-over__text {
+    max-width: 348px;
+    margin-bottom: 80px;
+  }
+
+  .game-over__text-left {
+    margin-right: 41px;
+  }
+  
+  .game-over__text-four{
+    font-size: 80px;
+    line-height: 113px;
+  }
+
+  .game-over__text-small {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .game-over__text-new {
+    font-size: 60px;
+    line-height: 85px;
+  }
+
+  .game-over__button {
+    padding-left: 38px;
+  }
+
+  .game-over__button-reserved {
+    font-size: 22px;
+    height: 64px;
+    width: 296px;
+  }
+
+  .game-over__arrow {
+    background-size: 67px 67px;
+    right: calc(50% - 61.5px);
+    bottom: 255px;
   }
 }
 

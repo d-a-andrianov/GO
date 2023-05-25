@@ -94,9 +94,9 @@
 
 @media (max-width: 1200px) {
 
-  .header {
+  /* .header {
     padding-top: 29px;
-  }
+  } */
 
   .header__button {
     font-size: 18px;
