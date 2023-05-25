@@ -51,8 +51,8 @@
 
 .entertainment__figcaption {
   position: absolute;
-  margin-top: -62px;
-  margin-left: 40px;
+  top: 177px;
+  left: -1px;
   font-weight: Bold;
   font-size: 20px;
   Line-height: 28px;
@@ -62,7 +62,43 @@
 @media (max-width: 1200px) {
 
   .entertainment {
-    /* display: none; */
+    padding-top: 54px;
+    min-height: 542px;
   }
-  
+
+  .entertainment__title {
+    font-size: 30px;
+    Line-height: 40px;
+    margin-bottom: 37px;
+    padding-left: 4px;
+  }
+
+  .entertainment__list {
+    gap: 28px 0px;
+  }
+
+  .entertainment__item {
+    max-height: 172px;
+  }
+
+  .entertainment__item:nth-child(3n+2) {
+    padding-top: 53px;
+  }
+
+  .entertainment__figure {
+    max-height: 172px;
+    width: 287px;
+  }
+
+  .entertainment__figcaption {
+    width: 247px;
+    top: 114px;
+    left: 22px;
+  }
+
+  .entertainment__figcaption-bottom {
+    top: 84px;
+    left: 22px;
 }
+}
+

@@ -182,7 +182,7 @@
   }
 
   .game-over__container {
-    max-height: 583px;
+    min-height: 583px;
   }
   
   .game-over__container::before {
@@ -191,7 +191,6 @@
     background-size: 457px 520px;
     /* background-size: contain; */
     right: 33px;
-    bottom: 240px;
   }
   
   .game-over__text-undertitle {
@@ -237,7 +236,7 @@
   .game-over__arrow {
     background-size: 67px 67px;
     right: calc(50% - 61.5px);
-    bottom: 255px;
+    bottom: 15px;
   }
 }
 
