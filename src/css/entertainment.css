@@ -51,8 +51,10 @@
 
 .entertainment__figcaption {
   position: absolute;
-  top: 177px;
-  left: -1px;
+  width: 300px;
+  height: 56px;
+  top: 169px;
+  left: 39px;
   font-weight: Bold;
   font-size: 20px;
   Line-height: 28px;
