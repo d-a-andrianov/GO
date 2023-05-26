@@ -461,6 +461,6 @@
 @media (max-width: 1200px) {
 
   .reserved {
-    display: none;
+    padding-top: 59px;
   }
 }

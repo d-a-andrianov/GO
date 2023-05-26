@@ -70,6 +70,27 @@
 @media (max-width: 1200px) {
 
   .halls {
-    display: none;
+    padding-bottom: 70px;
+  }
+
+  .halls__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 37px;
+  }
+  
+  .halls__list {
+    gap: 18px;
+  }
+
+  .halls__item {
+    width: 442px;
+    height: 267px;
+  }
+
+  .halls__link {
+    font-size: 50px;
+    line-height: 60px;
+    padding: 74px 140px;
   }
 }
