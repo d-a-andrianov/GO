@@ -6,7 +6,8 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  margin-left: -35px;
+  left: -3px;
+
 }
 
 .reserved__radio-focus:before {
@@ -483,6 +484,7 @@
   }
 
   .reserved__fieldset-entertainment {
+    justify-content: normal;
     width: 904px;
     height: 273px;
     margin-bottom: 60px;
@@ -500,13 +502,8 @@
     padding: 0 7px 0 8px;
   }
 
-  .reserved__wrapper-fieldset-entertainment {
-    display: flex;
-    gap: 97px;
-  }
-
   .reserved__fieldset-check {
-    margin-right: 9px;
+    margin-right: 6px;
   }
 
   .reserved__label-entertainment:not(:last-child) {
@@ -522,7 +519,7 @@
   }
 
   .reserved__radio-focus {
-    left: 33px;
+    left: -2px;
   }
 
   .reserved__fieldset-date-left {
