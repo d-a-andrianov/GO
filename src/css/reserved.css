@@ -461,6 +461,50 @@
 @media (max-width: 1200px) {
 
   .reserved {
-    padding-top: 59px;
+    padding: 59px 0 41px 0;
+  }
+
+  .reserved__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 43px;
+  }
+
+  .reserved__label-halls {
+    width: 180px;
+    height: 44px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .reserved__legend-title {
+    margin-bottom: 25px;
+  }
+
+  .reserved__fieldset-entertainment {
+    width: 904px;
+    height: 273px;
+    margin-bottom: 60px;
+  }
+
+  .reserved__legend-check {
+    margin-bottom: 24px;
+  }
+
+  .fieldset-left {
+    padding: 3px 0 0 0px;
+  }
+
+  .fieldset-center {
+    padding: 0 7px 0 8px;
+  }
+
+  .reserved__wrapper-fieldset-entertainment {
+    display: flex;
+    gap: 97px;
+  }
+
+  .reserved__label-entertainment:not(:last-child) {
+    margin-bottom: 20px;
   }
 }
