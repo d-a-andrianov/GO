@@ -461,7 +461,7 @@
 @media (max-width: 1200px) {
 
   .reserved {
-    padding: 59px 0 41px 0;
+    padding: 59px 0 57px 0;
   }
 
   .reserved__title {
@@ -475,6 +475,7 @@
     height: 44px;
     font-size: 20px;
     line-height: 24px;
+    padding: 10px 0 0 0;
   }
 
   .reserved__legend-title {
@@ -492,7 +493,7 @@
   }
 
   .fieldset-left {
-    padding: 3px 0 0 0px;
+    padding: 2px 0 0 1px;
   }
 
   .fieldset-center {
@@ -504,7 +505,39 @@
     gap: 97px;
   }
 
+  .reserved__fieldset-check {
+    margin-right: 9px;
+  }
+
   .reserved__label-entertainment:not(:last-child) {
     margin-bottom: 20px;
+  }
+
+  .reserved__fieldset-date {
+    max-width: 904px;
+  }
+
+  .reserved__legend-title-bottom {
+    margin-bottom: 30px;
+  }
+
+  .reserved__radio-focus {
+    left: 33px;
+  }
+
+  .reserved__fieldset-date-left {
+    flex-basis: 354px;
+    gap: 12px;
+  }
+
+  .reserved__fieldset-date-center {
+    flex-basis: 298px;
+  }
+
+  .reserved__button-bottom {
+    height: 50px;
+    width: 255px;
+    font-size: 18px;
+    line-height: 24px;
   }
 }
