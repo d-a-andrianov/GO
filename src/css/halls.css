@@ -94,3 +94,10 @@
     padding: 74px 140px;
   }
 }
+
+@media (max-width: 962px) {
+
+  .halls {
+    display: none;
+  }
+}

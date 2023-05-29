@@ -177,5 +177,11 @@
     line-height: 26px;
     padding-left: 19px;
   }
+}
 
+@media (max-width: 962px) {
+
+  .about {
+    display: none;
+  }
 }

@@ -124,5 +124,11 @@
   .header__list{
     gap: 21px;
   }
+}
 
+@media (max-width: 962px) {
+
+  .header {
+    /* display: none; */
+  }
 }

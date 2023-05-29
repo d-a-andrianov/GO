@@ -231,3 +231,10 @@ footer {
     height: 40px;
   }
 }
+
+@media (max-width: 962px) {
+
+  .footer {
+    display: none;
+  }
+}

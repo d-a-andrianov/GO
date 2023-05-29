@@ -103,6 +103,12 @@
     top: 84px;
     left: 20px;
 }
+}
 
+@media (max-width: 962px) {
+
+  .entertainment {
+    display: none;
+  }
 }
 

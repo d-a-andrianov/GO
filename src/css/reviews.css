@@ -118,7 +118,11 @@
 .reviews__item:not(:last-child) {
   margin-bottom: 40px;
 }
+}
 
+@media (max-width: 962px) {
 
-
+  .reviews {
+    display: none;
+  }
 }

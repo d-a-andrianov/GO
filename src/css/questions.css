@@ -138,3 +138,10 @@
   left: 8px;
 }
 }
+
+@media (max-width: 962px) {
+
+  .questions {
+    display: none;
+  }
+}
