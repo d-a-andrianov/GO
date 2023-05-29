@@ -180,8 +180,8 @@ footer {
 
   .footer__contacts {
     max-width: 541px;
-    /* height: 274px; */
-    gap: 38px;
+    gap: 59px;
+    margin-bottom: 96px;
   }
 
   .footer__img-map {
@@ -190,12 +190,18 @@ footer {
     max-height: 100%; */
     /* max-width: 542px;
     max-height: 274px; */
+    height: 275px;
     /* object-fit: cover;
     object-position: 0px -11px; */
   }
 
   .footer__adress-top {
     padding-left: 40px;
+    margin-bottom: 34px;
+  }
+
+  .footer__text:not(:last-child) {
+    
   }
 
   .footer__link-phone {
@@ -209,7 +215,19 @@ footer {
   }
 
   .footer__link-phone::before {
-    left: -46px;
-    bottom: -24px;
+    left: -39px;
+    bottom: -29px;
+    background-size: 26px 26px;
+  }
+
+  .footer__link-mail::before {
+    left: -39px;
+    bottom: -20px;
+    background-size: 26px 26px;
+  }
+
+  .footer__social-link {
+    width: 40px;
+    height: 40px;
   }
 }
