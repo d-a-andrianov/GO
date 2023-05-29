@@ -19,6 +19,29 @@
   outline-offset: 3px;
 }
 
+/* анимация для бургер кнопки в моб версии */
+
+.header__list-mobile:hover {
+  background: var(--white-purple-color);
+  color: var(--black-color);
+  outline: 1px solid var(--violet-color);
+  outline-offset: 3px;
+}
+
+.header__list-mobile:focus {
+  background: var(--white-color);
+  color: var(--black-color);
+  outline: 1px solid var(--violet-color);
+  outline-offset: 3px;
+}
+
+.header__list-mobile:active {
+  background: var(--dark-purple-color);
+  color: var(--white-color);
+  outline: 1px solid var(--white-color);
+  outline-offset: 3px;
+}
+
 .header__button:hover {
   background-color: var(--dark-purple-color);
   color: var(--white-color);
@@ -68,6 +91,10 @@
   line-height: 50px;
   text-transform: uppercase;
   gap: 40px;
+}
+
+.header__list-mobile {
+  display: none;
 }
 
 .header__item {
@@ -131,4 +158,28 @@
   .header {
     /* display: none; */
   }
+
+  .header__container {
+    gap: 159px;
+  }
+
+  .header__list {
+    display: none;
+  }
+
+  .header__img {
+    order: 2;
+  }
+
+  .header__list-mobile {
+    display: block;
+    /* background-color: none; */
+    cursor: pointer;
+    order: 1;
+  }
+
+  .header__button {
+    order: 3;
+  }
+
 }

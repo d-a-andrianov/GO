@@ -93,6 +93,14 @@ html {
     }
   }
 
+  @media (max-width: 962px) {
+    .container {
+      max-width: 748px;
+      padding: 0 30px;
+    }
+  }
+
+
   section {
     padding: 50px 0;
   }
@@ -113,3 +121,9 @@ html {
       padding-top: 29px;
     }
   }
+
+  @media (max-width: 962px) {
+    header {
+      padding-top: 35px;
+  }
+}
