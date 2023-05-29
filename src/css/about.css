@@ -145,14 +145,37 @@
   }
   
   .about__description {
-    width: 444px;
+    max-width: 431px;
     font-size: 30px;
     line-height: 36px;
     white-space: normal;
+    padding-left: 30px;
+    margin-bottom: 22px;
+  }
+
+  .about__description::after {
+    font-size: 30px;
+    line-height: 36px;
   }
 
   .about__img {
-    margin-right: 36px;
+    margin-right: 37px;
+  }
+
+  .about__boss {
+    padding: 0px 0 0 63px;
+  }
+  
+  .about__img-boss {
+    height: 70px;
+    width: 70px;
+    margin-right: 9px;
+  }
+  
+  .about__text-block {
+    font-size: 18px;
+    line-height: 26px;
+    padding-left: 19px;
   }
 
 }
