@@ -49,11 +49,12 @@
 }
 
 .reserved__radio-focus:focus-visible {
-  outline: none
+  outline: none;
+  
 }
 
 .reserved__radio-focus:checked:after {
-  opacity: 1
+  opacity: 1;
 }
 
 /* кружок вокруг чек-бокс при выделении */
@@ -556,13 +557,13 @@
   .reserved__legend-title {
     margin-bottom: 30px;
   }
+  
 
   .reserved__label-halls {
     width: 150px;
     height: 38px;
     font-size: 16px;
     line-height: 20px;
-
   }
 
   .reserved__fieldset-halls {
@@ -575,26 +576,57 @@
   .reserved__legend-title-center {
     margin-bottom: 29px;
     padding-right: 30px;
+    padding-right: 2px;
   }
 
   .reserved__fieldset-entertainment {
     width: 688px;
     height: 513px;
-    gap: 63px;
+    gap: 12px;
     flex-wrap: wrap;
   }
 
   .reserved__fieldset-check {
-    margin-right: 91px;
+    margin-right: 0px;
+  }
+  
+  .fieldset-left {
+    margin-right: 116px;
+  }
+
+  .reserved__legend-check-left {
+    margin-bottom: 30px;
+  }
+
+  .reserved__legend-check-center {
+    margin-bottom: 31px;
+  }
+
+  .reserved__legend-check-right {
+    margin-bottom: 26px;
   }
 
   .reserved__label-entertainment {
+    display: inline-block;
     font-size: 22px;
     line-height: 25.3px;
+    padding-left: 59px;
   }
 
   .reserved__label-entertainment:not(:last-child) {
     margin-bottom: 35px;
+  }
+
+  /* позиционирование радио */
+  .reserved__radio-focus {
+    left: 0px;
+    top: -9px;
+  }
+
+    /* позиционирование чекбокс */
+  .reserved__checkbox-focus {
+    left: 40px;
+    top: -5px;
   }
 
   .reserved__radio-focus:before {
@@ -606,4 +638,65 @@
     width: 40px;
     height: 40px;
   }
+
+  .reserved__fieldset-entertainment{
+    margin-bottom: 51px;
+  }
+
+  .reserved__fieldset-date {
+    max-width: 688px;
+    height: 422px;
+    /* flex-direction: column; */
+    display: block;
+    height: 323px;
+  }
+
+  .reserved__fieldset-date-left {
+    order: 1;
+    display: block;
+    /* flex-wrap: nowrap; */
+    margin-bottom: 25px;
+    gap: 0px;
+  }
+
+  .reserved__input-left-top {
+    height: 54px;
+    width: 134px;
+    margin-right: 14px;
+  }
+
+  .reserved__input-left-bottom {
+    width: 300px;
+    float: right;
+  }
+
+  .reserved__legend-title-bottom {
+    margin-bottom: 13px;
+  }
+
+  .reserved__fieldset-date-center {
+    display: inline-block;
+    order: 2;
+    float: left;
+    max-width: 280px;
+    margin-right: 108px;
+  }
+
+  .reserved__input {
+    margin-bottom: 16px;
+    padding-left: 18px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .reserved__input-right {
+    height: 55px;
+  }
+
+  .reserved__fieldset-date-right {
+    display: inline-block;
+    order: 2;
+    max-width: 300px;
+  }
+
 }
