@@ -245,6 +245,10 @@
     padding-top: 25px;
   }
 
+  .game-over__container {
+    min-height: 537px;
+  }
+
   .game-over__title {
     font-size: 86px;
     line-height: 86px;
@@ -285,7 +289,7 @@
 
   .game-over__container::before {
     width: 411px;
-    height: 528px;
+    height: 480px;
     background-size: 420px 480px;
   }
 
