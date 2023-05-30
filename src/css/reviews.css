@@ -123,6 +123,6 @@
 @media (max-width: 962px) {
 
   .reviews {
-    display: none;
+    /* display: none; */
   }
 }
