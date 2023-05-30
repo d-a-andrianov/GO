@@ -544,7 +544,7 @@
 
   .reserved {
     /* display: none; */
-    padding: 51px 0 57px 0;
+    padding: 51px 0 50px 0;
     /* max-width: 768px; */
   }
 
@@ -662,7 +662,7 @@
   .reserved__input-left-top {
     height: 54px;
     width: 134px;
-    margin-right: 14px;
+    margin-right: 9px;
   }
 
   .reserved__input-left-bottom {
@@ -697,6 +697,13 @@
     display: inline-block;
     order: 2;
     max-width: 300px;
+  }
+
+  .reserved__button-bottom {
+    width: 300px;
+    height: 60px;
+    font-size: 22px;
+    line-height: 28px;
   }
 
 }
