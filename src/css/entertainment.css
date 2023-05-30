@@ -108,6 +108,10 @@
     padding-top: 50px;
   }
 
+  .entertainment-container {
+    min-height: 742px;
+  }
+
   .entertainment__title {
     font-size: 24px;
     Line-height: 36px;
