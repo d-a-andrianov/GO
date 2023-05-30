@@ -177,7 +177,7 @@
   /* анимация полей ввода (инпутов) */
   transition-duration: 0.2s;
   transition-property: outline;
-  transition-delay: 0.1s;  
+  transition-delay: 0.1s;
 }
 
 /* стилизация кнопки Забронировать в форме */
@@ -228,7 +228,7 @@
 /* Выбери зал */
 .reserved__fieldset-halls {
   border: 0 none;
-  
+
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -240,7 +240,7 @@
 .reserved__legend-title {
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;  
+  line-height: 28px;
   text-align: center;
   margin-bottom: 38px;
 }
@@ -248,25 +248,25 @@
 .reserved__legend-title-bottom {
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;  
+  line-height: 28px;
   text-align: center;
   margin-bottom: 40px;
 }
 
 /* делаем из радио элементов кнопки, убираем точки */
 .reserved__radio-halls {
-	display: none;
+  display: none;
 }
 
 /* стили для кнопок "выбери зал" */
 .reserved__label-halls {
-	display: inline-block;
-	cursor: pointer;
-	padding: 7px 15px;
-	line-height: 34px;
-	/* border: 1px solid #999; */
-	border-radius: 6px;
-	user-select: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 7px 15px;
+  line-height: 34px;
+  /* border: 1px solid #999; */
+  border-radius: 6px;
+  user-select: none;
   width: 250px;
   height: 55px;
   background-color: var(--white-color);
@@ -379,7 +379,7 @@
   display: flex;
   flex-direction: column;
   flex-basis: 280px;
-  gap: 3px ;
+  gap: 3px;
 }
 
 .reserved__fieldset-date-center label:not(:last-child) {
@@ -542,6 +542,68 @@
 @media (max-width: 962px) {
 
   .reserved {
-    display: none;
+    /* display: none; */
+    padding: 51px 0 57px 0;
+    /* max-width: 768px; */
+  }
+
+  .reserved__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
+  }
+
+  .reserved__legend-title {
+    margin-bottom: 30px;
+  }
+
+  .reserved__label-halls {
+    width: 150px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 20px;
+
+  }
+
+  .reserved__fieldset-halls {
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 29px;
+    margin-bottom: 49px;
+  }
+
+  .reserved__legend-title-center {
+    margin-bottom: 29px;
+    padding-right: 30px;
+  }
+
+  .reserved__fieldset-entertainment {
+    width: 688px;
+    height: 513px;
+    gap: 63px;
+    flex-wrap: wrap;
+  }
+
+  .reserved__fieldset-check {
+    margin-right: 91px;
+  }
+
+  .reserved__label-entertainment {
+    font-size: 22px;
+    line-height: 25.3px;
+  }
+
+  .reserved__label-entertainment:not(:last-child) {
+    margin-bottom: 35px;
+  }
+
+  .reserved__radio-focus:before {
+    width: 40px;
+    height: 40px;
+  }
+
+  .reserved__checkbox-focus:before {
+    width: 40px;
+    height: 40px;
   }
 }

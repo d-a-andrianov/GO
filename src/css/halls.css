@@ -99,6 +99,7 @@
 
   .halls {
     /* display: none; */
+    padding-bottom: 60px;
   }
 
   .halls__title {
