@@ -60,7 +60,7 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 50px;
-  margin-left: 100px;
+  padding-left: 100px;
 }
 
 .game-over__text {
@@ -102,7 +102,7 @@
 }
 
 .game-over__text-small {
-  
+
   font-size: 30px;
   line-height: 35px;
   color: var(--white-color);
@@ -139,9 +139,7 @@
   transition-delay: 0.1s;
 }
 
-.game-over__link-arrow {
-  
-}
+.game-over__link-arrow {}
 
 /* .game-over__arrow {
   display: block;
@@ -152,7 +150,7 @@
 } */
 
 .game-over__arrow {
-  display:block;
+  display: block;
   width: 97px;
   height: 97px;
   background: url("../img/first-section/down.svg");
@@ -184,7 +182,7 @@
   .game-over__container {
     min-height: 583px;
   }
-  
+
   .game-over__container::before {
     width: 453px;
     height: 520px;
@@ -192,7 +190,7 @@
     /* background-size: contain; */
     right: 33px;
   }
-  
+
   .game-over__text-undertitle {
     font-size: 22px;
     line-height: 30px;
@@ -207,8 +205,8 @@
   .game-over__text-left {
     margin-right: 41px;
   }
-  
-  .game-over__text-four{
+
+  .game-over__text-four {
     font-size: 80px;
     line-height: 113px;
   }
@@ -243,6 +241,67 @@
 @media (max-width: 962px) {
 
   .game-over {
+    /* display: none; */
+    padding-top: 25px;
+  }
+
+  .game-over__title {
+    font-size: 86px;
+    line-height: 86px;
+    padding-left: 2px;
+  }
+
+  .game-over__text-undertitle {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 20px 0 0 71px;
+  }
+
+  .game-over__text {
+    padding-top: 51px;
+    max-width: 222px;
+    margin-bottom: 99px;
+    border-radius: 4px;
+  }
+
+  .game-over__text-left {
+    margin-right: 31px;
+  }
+
+  .game-over__text-four {
+    font-size: 50px;
+    line-height: 70.5px;
+  }
+
+  .game-over__text-small {
+    font-size: 16px;
+    line-height: 18.4px;
+  }
+
+  .game-over__text-new {
+    font-size: 40px;
+    line-height: 56.4px;
+  }
+
+  .game-over__container::before {
+    width: 411px;
+    height: 528px;
+    background-size: 420px 480px;
+  }
+
+  .game-over__button {
+    padding-left: 0px;
+  }
+
+  .game-over__button-reserved {
+    width: 214px;
+    height: 46px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .game-over__arrow {
     display: none;
   }
+
 }

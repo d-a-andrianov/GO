@@ -22,13 +22,21 @@
 /* анимация для бургер кнопки в моб версии */
 
 .header__list-mobile:hover {
-  background: var(--white-purple-color);
-  color: var(--black-color);
-  outline: 1px solid var(--violet-color);
-  outline-offset: 3px;
+  background-image: url(../img/header/menu_hover.svg);
 }
 
 .header__list-mobile:focus {
+  background-image: url(../img/header/menu_active-focus.svg);
+  outline: 1px solid var(--light-purple-color);
+  outline-offset: 2px;
+}
+
+.header__list-mobile:active {
+  background-image: url(../img/header/menu_active-focus.svg);
+  outline: none;
+}
+
+/* .header__list-mobile:focus {
   background: var(--white-color);
   color: var(--black-color);
   outline: 1px solid var(--violet-color);
@@ -40,7 +48,7 @@
   color: var(--white-color);
   outline: 1px solid var(--white-color);
   outline-offset: 3px;
-}
+} */
 
 .header__button:hover {
   background-color: var(--dark-purple-color);
@@ -157,10 +165,11 @@
 
   .header {
     /* display: none; */
+    position: relative;
   }
 
   .header__container {
-    gap: 159px;
+    gap: 152px;
   }
 
   .header__list {
@@ -173,8 +182,15 @@
 
   .header__list-mobile {
     display: block;
-    /* background-color: none; */
+    width: 58px;
+    height: 58px;
+    background-image: url("../img/header/menu.svg");
+    background-color: var(--background-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
     cursor: pointer;
+    padding: 20px 0;
     order: 1;
   }
 
