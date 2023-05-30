@@ -78,7 +78,7 @@
     line-height: 40px;
     margin-bottom: 37px;
   }
-  
+
   .halls__list {
     gap: 18px;
   }
@@ -109,5 +109,11 @@
   .halls__item {
     width: 335px;
     height: 200px;
-}
+  }
+
+  .halls__link {
+    font-size: 40px;
+    line-height: 50px;
+    padding: 60px 104px;
+  }
 }
