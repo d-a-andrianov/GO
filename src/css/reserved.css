@@ -460,7 +460,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
 
   .reserved {
     padding: 59px 0 57px 0;
@@ -705,5 +705,79 @@
     font-size: 22px;
     line-height: 28px;
   }
-
 }
+
+@media (max-width: 748px) {
+
+  .reserved {
+    min-height: 800px;
+    padding: 51px 20px 50px 20px;
+  }
+
+  .reserved__label-halls {
+    width: 112px;
+  }
+
+  .reserved__fieldset-halls {
+    max-width: 622px;
+    gap: 8px;
+  }
+
+  .fieldset-left {
+    margin-right: 20px;
+  }
+
+  .reserved__fieldset-entertainment {
+    max-width: 513px;
+  }
+
+.reserved__fieldset-date {
+    max-width: 688px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 377px;
+    justify-content: center;
+}
+
+  .fieldset-left {
+    margin-right: 40px;
+  }
+
+  .reserved__input {
+    float: none;
+  }
+  
+  .reserved__input-left-top {
+    height: 54px;
+    width: 130px;
+    margin-right: 0px;
+  }
+
+  .reserved__input-left-bottom {
+    max-width: 280px;
+  }
+
+  .reserved__fieldset-date-left {
+      display: flex;
+      justify-content: center;
+      gap: 10px 20px;
+      margin-bottom: 0px;
+  }
+  
+  .reserved__fieldset-date-center {
+    max-width: 280px;
+    margin-right: 0px;
+  }
+
+  .reserved__fieldset-date-right {
+    max-width: 280px;
+  }
+
+  .reserved__button-bottom {
+    max-width: 300px;
+  }
+}
+
+/* след адаптив с 555px */
+

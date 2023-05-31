@@ -168,7 +168,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
 
   .game-over {
     /* display: none; */
@@ -307,5 +307,17 @@
   .game-over__arrow {
     display: none;
   }
+}
 
+@media (max-width: 748px) {
+
+.game-over__container::before {
+  width: 342px;
+  height: 430px;
+  background-size: 366px 423px;
+}
+
+.game-over__text {
+  margin-bottom: 12px;
+}
 }

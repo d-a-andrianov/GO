@@ -166,7 +166,7 @@ footer {
   counter-reset: count 0;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
 
   .footer {
     padding-top: 22px;

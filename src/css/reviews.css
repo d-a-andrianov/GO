@@ -71,7 +71,7 @@
   border-radius: 50%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
   .reviews {
     padding-top: 26px;
   }
@@ -180,4 +180,10 @@
     line-height: 22px;
     padding: 37px 0 0 2px;
   }
+}
+
+@media (max-width: 748px) {
+.reviews__text {
+  max-width: 236px;
+}
 }

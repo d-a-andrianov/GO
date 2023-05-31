@@ -87,7 +87,7 @@
   transition-delay: 0.1s;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
   .questions {
 
   }
@@ -163,4 +163,10 @@
     top: -12px;
     left: -8px;
 }
+}
+
+@media (max-width: 748px) {
+  .questions__item {
+    font-size: 15px;
+  }
 }

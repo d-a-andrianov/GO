@@ -67,7 +67,7 @@
   background-image: url(../img/third-section/4.jpg);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
 
   .halls {
     padding-bottom: 70px;
@@ -118,3 +118,13 @@
     padding: 60px 104px;
   }
 }
+
+@media (max-width: 748px) {
+
+  .halls__list {
+    justify-content: center;
+  }
+  }
+
+
+

@@ -86,7 +86,7 @@ html {
     margin: 0 auto;
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1240px) {
     .container {
       max-width: 964px;
       padding: 0 30px;
@@ -100,12 +100,20 @@ html {
     }
   }
 
+  @media (max-width: 748px) {
+
+    .container {
+      max-width: 548px;
+      padding: 0 20px;
+    }
+  }
+
 
   section {
     padding: 50px 0;
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1240px) {
     section {
       padding: 30px 0;
     }
@@ -116,7 +124,7 @@ html {
   }
 
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1240px) {
     header {
       padding-top: 29px;
     }

@@ -110,7 +110,7 @@
   display: inline-block;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
 
   .about {}
 
@@ -243,3 +243,28 @@
   }
 
 }
+
+@media (max-width: 748px) {
+
+  .about {
+    min-height: 675px;
+  }
+
+  .about__img {
+    max-width: 265px;
+  }
+
+  .about__wrapper {
+    max-width: 210px;
+    padding-top: 0px;
+  }
+
+  .about__text {
+    margin-bottom: 20px;
+}
+
+  .about__description {
+    padding-left: 201px;
+  }
+}
+

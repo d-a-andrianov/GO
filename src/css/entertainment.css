@@ -57,7 +57,7 @@
   white-space: pre-line;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
 
   .entertainment {
     padding: 54px 0 92px 0;
@@ -140,5 +140,23 @@
     width: 274px;
     height: 56px;
   }
+}
+
+@media (max-width: 748px) {
+
+  .entertainment__list{
+    justify-content: center;
+    gap: 49px 20px;
+  }
+
+  .entertainment__figure {
+    width: 368px;
+}
+
+/* .entertainment__figcaption {
+  top: 99px;
+  left: 12px;
+} */
+
 }
 

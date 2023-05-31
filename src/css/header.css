@@ -127,7 +127,7 @@
   padding-top: 7px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
 
   /* .header {
     padding-top: 29px;
@@ -197,5 +197,18 @@
   .header__button {
     order: 3;
   }
-
 }
+
+@media (max-width: 748px) {
+
+.header__container {
+  gap: 122px;
+}
+
+.header__button {
+  font-size: 14px;
+  line-height: 18px;
+}
+}
+
+/* след адаптив с 555px */
