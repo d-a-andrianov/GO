@@ -272,6 +272,21 @@ footer {
     margin-bottom: 78px;
   }
 
+  .footer__link-adress::before {
+    left: -36px;
+    bottom: 6px;
+  }
+
+  .footer__link-phone::before {
+    left: -14px;
+    bottom: -27px; 
+  }
+
+  .footer__link-mail::before {
+    left: -39px;
+    bottom: -24px;
+  }
+
   .footer__social {
     width: 262px;
     padding-top: 4px;
