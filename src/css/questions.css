@@ -142,6 +142,25 @@
 @media (max-width: 962px) {
 
   .questions {
-    display: none;
+    /* display: none; */
+    padding-top: 20px;
   }
+
+  .questions__title {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 28px;
+  }
+
+  .questions__item {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 25px 57px;
+    margin-bottom: 16px;
+  }
+
+  .questions__item:after {
+    top: -12px;
+    left: -8px;
+}
 }
