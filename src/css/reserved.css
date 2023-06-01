@@ -623,10 +623,22 @@
     top: -9px;
   }
 
+  /* стилизация черной точки выделения в радио */
+  .reserved__radio-focus:after {
+    top: 15px;
+    left: 14px;
+  }
+
     /* позиционирование чекбокс */
   .reserved__checkbox-focus {
     left: 40px;
     top: -5px;
+  }
+
+    /* стилизация галочки в чекбоксе */
+  .reserved__checkbox-focus:after {
+    top: 10px;
+    left: 15px;
   }
 
   .reserved__radio-focus:before {
@@ -776,6 +788,10 @@
 
   .reserved__button-bottom {
     max-width: 300px;
+  }
+
+  .reserved__button-box {
+    justify-content: center;
   }
 }
 

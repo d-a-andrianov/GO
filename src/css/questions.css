@@ -70,11 +70,10 @@
 .questions__item:nth-child(even):after {
   content: '';
   background-image: url(../img/seventh-section/open.svg);
-    /* анимация значка плюс */
+  /* анимация значка плюс */
   transition-duration: 0.35s;
   transition-property: background-image;
   transition-delay: 0.1s;
-
 }
 
 /* добавление нечетного значка плюс в конце элемента */
@@ -88,9 +87,7 @@
 }
 
 @media (max-width: 1240px) {
-  .questions {
-
-  }
+  .questions {}
 
   .questions__title {
     font-size: 30px;
@@ -104,42 +101,54 @@
   }
 
   /* стилизация нечетного значка плюс при наведении */
-.questions__item:hover:nth-child(odd):after {
-  content: '';
-  background-image: url(../img/seventh-section/open_hover.png);
-}
+  .questions__item:hover:nth-child(odd):after {
+    content: '';
+    background-image: url(../img/seventh-section/open_hover.png);
+  }
 
-/* стилизация нечетного значка плюс актив */
-.questions__item:active:hover:nth-child(odd):after {
-  content: '';
-  background-image: url(../img/seventh-section/open_active.svg);
-}
+  /* стилизация нечетного значка плюс актив */
+  .questions__item:active:hover:nth-child(odd):after {
+    content: '';
+    background-image: url(../img/seventh-section/open_active.svg);
+  }
 
-.questions__item:nth-child(2n) {
-  background-color: var(--white-color);
-  color: var(--black-color);
-}
+  .questions__item:nth-child(2n) {
+    background-color: var(--white-color);
+    color: var(--black-color);
+  }
 
-.questions__item:nth-child(even):after {
-  background-image: url(../img/seventh-section/open-purple.svg);
-  padding-top: 10px;
-}
+  .questions__item:nth-child(even):after {
+    background-image: url(../img/seventh-section/open-purple.svg);
+    padding-top: 10px;
+  }
 
-.questions__item {
-  font-size: 20px;
-  line-height: 24px;
-  padding: 23px 28px;
-  margin-bottom: 16px;
-  height: 70px;
-}
+  .questions__item {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 23px 28px;
+    margin-bottom: 16px;
+    height: 70px;
+  }
 
-.questions__item:after {
-  top: -11px;
-  left: 8px;
-}
+  .questions__item:after {
+    top: -11px;
+    left: 8px;
+  }
 }
 
 @media (max-width: 962px) {
+
+  /* стилизация нечетного значка плюс при наведении */
+  .questions__item:hover:nth-child(odd):after {
+    content: '';
+    background-image: url(../img/seventh-section/open-purple_hover.png);
+  }
+
+  /* стилизация четного значка плюс при наведении */
+  .questions__item:hover:nth-child(even):after {
+    content: '';
+    background-image: url(../img/seventh-section/open-purple_hover.png);
+  }
 
   .questions {
     /* display: none; */
@@ -162,7 +171,7 @@
   .questions__item:after {
     top: -12px;
     left: -8px;
-}
+  }
 }
 
 @media (max-width: 748px) {
