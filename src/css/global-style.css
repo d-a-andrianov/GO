@@ -108,6 +108,14 @@ html {
     }
   }
 
+  @media (max-width: 555px) {
+
+    .container {
+      max-width: 320px;
+      padding: 0 20px;
+    }
+  }
+
 
   section {
     padding: 50px 0;
@@ -133,5 +141,11 @@ html {
   @media (max-width: 962px) {
     header {
       padding-top: 34px;
+  }
+}
+
+@media (max-width: 555px) {
+  header {
+    padding-top: 17px;
   }
 }

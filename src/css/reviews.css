@@ -187,3 +187,9 @@
   max-width: 236px;
 }
 }
+
+@media (max-width: 555px) {
+  .reviews {
+    display: none;
+  }
+}

@@ -297,3 +297,9 @@ footer {
     height: 337px;
   }
 }
+
+@media (max-width: 555px) {
+  .footer {
+    display: none;
+  }
+}

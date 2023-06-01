@@ -36,20 +36,6 @@
   outline: none;
 }
 
-/* .header__list-mobile:focus {
-  background: var(--white-color);
-  color: var(--black-color);
-  outline: 1px solid var(--violet-color);
-  outline-offset: 3px;
-}
-
-.header__list-mobile:active {
-  background: var(--dark-purple-color);
-  color: var(--white-color);
-  outline: 1px solid var(--white-color);
-  outline-offset: 3px;
-} */
-
 .header__button:hover {
   background-color: var(--dark-purple-color);
   color: var(--white-color);
@@ -202,7 +188,7 @@
 @media (max-width: 748px) {
 
 .header__container {
-  gap: 122px;
+  /* gap: 80px; */
 }
 
 .header__button {
@@ -212,3 +198,33 @@
 }
 
 /* след адаптив с 555px */
+
+@media (max-width: 555px) {
+
+  .header {
+    /* display: none; */
+  }
+
+  .header__container {
+    align-items: flex-end;
+    padding-left: 33px;
+    gap: 176px;
+}
+
+.header__button {
+  display: none;
+}
+
+.header__list-mobile {
+  background-size: 39px 20px;
+  width: 30px;
+  height: 30px;
+  padding: 0 0 0 40px;
+}
+
+.header__img {
+  width: 66px;
+  height: 42px;
+  padding-top: 3px;
+}
+}

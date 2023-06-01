@@ -797,3 +797,8 @@
 
 /* след адаптив с 555px */
 
+@media (max-width: 555px) {
+  .reserved {
+    display: none;
+  }
+}

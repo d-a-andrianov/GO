@@ -321,3 +321,31 @@
   margin-bottom: 12px;
 }
 }
+
+@media (max-width: 555px) {
+  .game-over {
+    /* display: none; */
+    padding-top: 24px;
+  }
+
+  .game-over__title {
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: -0.08em;
+    padding-left: 15px;
+  }
+
+  .game-over__text-undertitle {
+    font-size: 10px;
+    line-height: 14px;
+    padding: 5px 0 0 35px;
+  }
+
+  .game-over__container::before {
+    width: 161px;
+    height: 181px;
+    background-size: 161px 181px;
+    left: 154px;
+    top: 22px;
+}
+}
