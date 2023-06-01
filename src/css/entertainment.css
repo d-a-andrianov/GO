@@ -161,7 +161,37 @@
 
 @media (max-width: 555px) {
   .entertainment {
-    display: none;
+    /* display: none; */
   }
+
+  .entertainment {
+    /* display: none; */
+    padding: 17px 0 29px 0;
+  }
+
+  .entertainment__title {
+    font-size: 14px;
+    Line-height: 18px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.entertainment__list {
+  gap: 14px 7px;
+}
+
+.entertainment__figure {
+  width: 135px;
+}
+
+.entertainment__figcaption {
+  font-size: 10px;
+  Line-height: 14px;
+  top: 51px;
+  left: 16px;
+  height: 28px;
+  width: 115px;
+}
+
 }
 

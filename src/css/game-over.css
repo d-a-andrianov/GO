@@ -325,7 +325,11 @@
 @media (max-width: 555px) {
   .game-over {
     /* display: none; */
-    padding-top: 24px;
+    padding: 24px 0 28px 0;
+  }
+
+  .game-over__container {
+    min-height: 204px;
   }
 
   .game-over__title {
