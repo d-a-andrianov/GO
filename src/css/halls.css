@@ -128,8 +128,15 @@
 
   @media (max-width: 555px) {
     .halls {
-      display: none;
+      /* display: none; */
+      padding-top: 15px;
     }
+
+    .halls__title {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    
   }
 
 

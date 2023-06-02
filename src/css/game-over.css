@@ -336,20 +336,20 @@
     font-size: 35px;
     line-height: 35px;
     letter-spacing: -0.08em;
-    padding-left: 15px;
+    padding-left: 0px;
   }
 
   .game-over__text-undertitle {
     font-size: 10px;
     line-height: 14px;
-    padding: 5px 0 0 35px;
+    padding: 5px 0 0 20px;
   }
 
   .game-over__container::before {
     width: 161px;
     height: 181px;
     background-size: 161px 181px;
-    left: 154px;
+    left: 139px;
     top: 22px;
   }
 
@@ -357,7 +357,7 @@
     padding-top: 10px;
     justify-content: flex-start;
     gap: 62px;
-    padding-left: 15px;
+    
     margin-bottom: 30px;
   }
 
@@ -382,7 +382,7 @@
   }
 
   .game-over__button {
-    padding-left: 14px;
+    
   }
 
   .game-over__button-reserved {

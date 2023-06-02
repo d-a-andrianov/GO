@@ -162,35 +162,44 @@
 @media (max-width: 555px) {
   .entertainment {
     /* display: none; */
+    min-height: 296px;
+    padding: 17px 0 15px 0;
   }
 
-  .entertainment {
-    /* display: none; */
-    padding: 17px 0 29px 0;
+  .entertainment-container {
+    min-height: 296px;
   }
 
   .entertainment__title {
     font-size: 14px;
     Line-height: 18px;
     margin-bottom: 15px;
-    padding-left: 30px;
 }
 
 .entertainment__list {
-  gap: 14px 7px;
+  gap: 10px 8px;
+}
+
+.entertainment__item {
+  max-height: 75px;
 }
 
 .entertainment__figure {
-  width: 135px;
+  width: 136px;
+}
+
+.entertainment__img {
+  max-height: 75px;
+  width: 136px;
 }
 
 .entertainment__figcaption {
   font-size: 10px;
   Line-height: 14px;
-  top: 51px;
-  left: 16px;
+  top: 31px;
+  left: 10px;
   height: 28px;
-  width: 115px;
+  width: 114px;
 }
 
 }
