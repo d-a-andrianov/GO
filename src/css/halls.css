@@ -135,6 +135,22 @@
     .halls__title {
       font-size: 14px;
       line-height: 18px;
+      margin-bottom: 16px;
+    }
+
+    .halls__list {
+      gap: 10px;
+    }
+
+    .halls__item {
+      width: 280px;
+      height: 168px;
+    }
+
+    .halls__link {
+      font-size: 26px;
+      line-height: 36px;
+      padding: 48px 99px;
     }
     
   }
