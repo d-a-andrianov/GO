@@ -129,7 +129,7 @@
   @media (max-width: 555px) {
     .halls {
       /* display: none; */
-      padding-top: 15px;
+      padding: 15px 0 29px 0;
     }
 
     .halls__title {

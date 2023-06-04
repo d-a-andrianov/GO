@@ -50,7 +50,7 @@
 
 .reserved__radio-focus:focus-visible {
   outline: none;
-  
+
 }
 
 .reserved__radio-focus:checked:after {
@@ -557,7 +557,7 @@
   .reserved__legend-title {
     margin-bottom: 30px;
   }
-  
+
 
   .reserved__label-halls {
     width: 150px;
@@ -589,7 +589,7 @@
   .reserved__fieldset-check {
     margin-right: 0px;
   }
-  
+
   .fieldset-left {
     margin-right: 116px;
   }
@@ -629,13 +629,13 @@
     left: 14px;
   }
 
-    /* позиционирование чекбокс */
+  /* позиционирование чекбокс */
   .reserved__checkbox-focus {
     left: 40px;
     top: -5px;
   }
 
-    /* стилизация галочки в чекбоксе */
+  /* стилизация галочки в чекбоксе */
   .reserved__checkbox-focus:after {
     top: 10px;
     left: 15px;
@@ -651,7 +651,7 @@
     height: 40px;
   }
 
-  .reserved__fieldset-entertainment{
+  .reserved__fieldset-entertainment {
     margin-bottom: 51px;
   }
 
@@ -700,7 +700,7 @@
     font-size: 18px;
     line-height: 28px;
   }
-  
+
   .reserved__input-right {
     height: 55px;
   }
@@ -743,14 +743,14 @@
     max-width: 513px;
   }
 
-.reserved__fieldset-date {
+  .reserved__fieldset-date {
     max-width: 688px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     margin-bottom: 377px;
     justify-content: center;
-}
+  }
 
   .fieldset-left {
     margin-right: 40px;
@@ -759,7 +759,7 @@
   .reserved__input {
     float: none;
   }
-  
+
   .reserved__input-left-top {
     height: 54px;
     width: 130px;
@@ -771,12 +771,12 @@
   }
 
   .reserved__fieldset-date-left {
-      display: flex;
-      justify-content: center;
-      gap: 10px 20px;
-      margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px 20px;
+    margin-bottom: 0px;
   }
-  
+
   .reserved__fieldset-date-center {
     max-width: 280px;
     margin-right: 0px;
@@ -799,6 +799,136 @@
 
 @media (max-width: 555px) {
   .reserved {
-    display: none;
+    /* display: none; */
+    padding: 29px 0px 29px 0px;
   }
+
+  .reserved__title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+
+  .reserved__legend-title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .reserved__fieldset-halls {
+    flex-wrap: wrap;
+    gap: 16px 19px;
+    margin-bottom: 29px;
+  }
+
+  .reserved__label-halls {
+    height: 30px;
+    width: 130px;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 4px;
+    padding-top: 6px;
+  }
+
+  .reserved__fieldset-entertainment {
+    max-width: 280px;
+    gap: 1px;
+    margin-bottom: 124px;
+  }
+
+  .reserved__legend-check {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .reserved__label-entertainment {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .reserved__radio-focus:before {
+    width: 30px;
+    height: 30px;
+  }
+
+  .reserved__label-entertainment {
+    padding-left: 50px;
+}
+
+  .reserved__label-entertainment:not(:last-child) {
+    margin-bottom: 27px;
+  }
+
+  .reserved__fieldset-check {
+    margin-right: 14px;
+  }
+
+  .reserved__legend-check-left {
+    margin-bottom: 21px;
+  }
+
+  .reserved__checkbox-focus:before {
+    width: 30px;
+    height: 30px;
+}
+
+.reserved__legend-check-center {
+  margin-bottom: 19px;
+}
+
+.fieldset-center {
+  padding: 0 16px 0 0px;
+}
+
+/* .reserved__label-entertainment-center {
+  margin-bottom: 15px;
+} */
+
+.reserved__label-entertainment-center:not(:last-child) {
+  margin-bottom: 33px;
+}
+
+.reserved__legend-check-right {
+  margin-bottom: 20px;
+}
+
+.reserved__input {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.reserved__label-entertainment-right:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.reserved__legend-title-bottom {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 9px;
+}
+
+.reserved__fieldset-date-left {
+  gap: 0px 14px;
+  margin-bottom: -33px;
+}
+
+
+.reserved__input-left-top {
+  width: 133px;
+  margin-right: 0px;
+}
+}
+
+.reserved__fieldset-date-center {
+  margin-bottom: -30px;
+}
+
+.reserved__fieldset-date {
+  height: 217px;
+}
+
+.reserved__button-bottom {
+  font-size: 18px;
+  line-height: 26px;
+  border-radius: 4px;
 }
