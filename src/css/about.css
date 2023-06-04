@@ -309,7 +309,7 @@
 
   .about__img {
     max-width: 280px;
-    float: unset;
+ 
     margin: 0;
     padding: 0;
     margin-bottom: 22px;
@@ -320,9 +320,39 @@
     height: 280px;
   }
 
-  .about__description {
-    padding-left: 9px;
+  .about__description::before {
+    font-size: 18px;
+    line-height: 26px;
   }
+
+  .about__description {
+    padding-left: 16px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .about__description::after {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.about__boss {
+  display: flex;
+  width: 320px;
+  padding: 0px 0 0 42px;
+}
+
+.about__img-boss {
+  height: 56px;
+  width: 56px;
+}
+
+.about__text-block {
+  width: 213px;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 3px;
+}
 
 }
 
