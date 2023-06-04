@@ -917,7 +917,7 @@
   width: 133px;
   margin-right: 0px;
 }
-}
+
 
 .reserved__fieldset-date-center {
   margin-bottom: -30px;
@@ -931,4 +931,5 @@
   font-size: 18px;
   line-height: 26px;
   border-radius: 4px;
+}
 }
