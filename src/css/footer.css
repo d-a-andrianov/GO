@@ -300,6 +300,73 @@ footer {
 
 @media (max-width: 555px) {
   .footer {
-    display: none;
+    /* display: none; */
+    padding-top: 8px;
   }
+
+  .footer__title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+.footer__text:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer__link-adress {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+
+.footer__link-adress::before {
+  left: -27px;
+  bottom: -12px;
+  background-size: 20px 20px;
+}
+
+.footer__link-phone {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.footer__link-phone::before {
+  left: -2px;
+  bottom: -32px;
+  background-size: 20px 20px;
+}
+
+.footer__link-mail {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.footer__link-mail::before {
+  left: -25px;
+  bottom: -31px;
+  background-size: 20px 20px;
+}
+
+.footer__adress-top {
+  margin-bottom: 5px;
+}
+
+.footer__social-link {
+  width: 30px;
+  height: 30px;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer__contacts {
+  gap: 20px;
+}
+
+.footer__img-map {
+  height: 194px;
+}
+
 }
