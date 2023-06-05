@@ -844,16 +844,14 @@
   .reserved__label-entertainment {
     font-size: 16px;
     line-height: 18px;
+    padding-left: 50px;
+    margin-bottom: 27px;
   }
 
   .reserved__radio-focus:before {
     width: 30px;
     height: 30px;
   }
-
-  .reserved__label-entertainment {
-    padding-left: 50px;
-}
 
   .reserved__label-entertainment:not(:last-child) {
     margin-bottom: 27px;
@@ -885,7 +883,7 @@
 } */
 
 .reserved__label-entertainment-center:not(:last-child) {
-  margin-bottom: 33px;
+  margin-bottom: 32px;
 }
 
 .reserved__legend-check-right {
