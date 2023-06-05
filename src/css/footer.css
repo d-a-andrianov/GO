@@ -363,10 +363,25 @@ footer {
 
 .footer__contacts {
   gap: 20px;
+  margin-bottom: 64px;
 }
 
 .footer__img-map {
   height: 194px;
+}
+
+.footer__author {
+  font-size: 12px;
+  line-height: 16px;
+  flex-direction: column;
+  width: 136px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__author-right {
+  text-align: center;
 }
 
 }
