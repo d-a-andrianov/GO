@@ -182,6 +182,28 @@
 
 @media (max-width: 555px) {
   .questions {
-    display: none;
+    /* display: none; */
+    padding-top: 6px;
   }
+
+  .questions__title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .questions__item {
+    height: 46px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 100px 6px 9px;
+    margin-bottom: 10px;
+  }
+
+  .questions__item:after {
+    width: 30px;
+    height: 30px;
+    top: -15px;
+    left: 90px;
+}
 }
