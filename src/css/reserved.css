@@ -478,7 +478,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1256px) {
 
   .reserved {
     padding: 59px 0 57px 0;
@@ -845,9 +845,9 @@
   }
 }
 
-/* след адаптив с 555px */
+/* след адаптив с 569px */
 
-@media (max-width: 555px) {
+@media (max-width: 569px) {
   .reserved {
     /* display: none; */
     padding: 29px 0px 29px 0px;

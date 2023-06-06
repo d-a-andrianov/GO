@@ -57,7 +57,7 @@
   white-space: pre-line;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1256px) {
 
   .entertainment {
     padding: 54px 0 92px 0;
@@ -163,7 +163,7 @@
 } */
 }
 
-@media (max-width: 555px) {
+@media (max-width: 569px) {
   .entertainment {
     /* display: none; */
     min-height: 296px;

@@ -71,7 +71,7 @@
   border-radius: 50%;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1256px) {
   .reviews {
     padding-top: 26px;
   }
@@ -189,7 +189,7 @@
 }
 }
 
-@media (max-width: 555px) {
+@media (max-width: 569px) {
   .reviews {
     /* display: none; */
     padding: 32px 0 19px 0;

@@ -67,7 +67,7 @@
   background-image: url(../img/third-section/4.jpg);
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1256px) {
 
   .halls {
     padding-bottom: 70px;
@@ -126,7 +126,7 @@
   }
   }
 
-  @media (max-width: 555px) {
+  @media (max-width: 569px) {
     .halls {
       /* display: none; */
       padding: 15px 0 29px 0;

@@ -33,7 +33,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  white-space: pre-wrap;
+  white-space: pre-line;
   padding-left: 2px;
 }
 
@@ -53,8 +53,8 @@
   font-size: 44px;
   line-height: 50px;
   margin-bottom: 22px;
-  padding-left: 21px;
-  white-space: pre-wrap;
+  padding-left: 33px;
+  white-space: pre-line;
 }
 
 .about__description::before {
@@ -114,7 +114,7 @@
   display: inline-block;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1256px) {
 
   .about {
     padding-bottom: 35px;
@@ -273,7 +273,7 @@
   }
 }
 
-@media (max-width: 555px) {
+@media (max-width: 569px) {
   .about {
     /* display: none; */
     padding: 0px 0 20px 0;

@@ -86,7 +86,7 @@
   transition-delay: 0.1s;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1256px) {
   .questions {}
 
   .questions__title {
@@ -180,7 +180,7 @@
   }
 }
 
-@media (max-width: 555px) {
+@media (max-width: 569px) {
   .questions {
     /* display: none; */
     padding: 6px 0 15px 0;

@@ -86,7 +86,7 @@ html {
     margin: 0 auto;
   }
 
-  @media (max-width: 1240px) {
+  @media (max-width: 1256px) {
     .container {
       max-width: 964px;
       padding: 0 30px;
@@ -108,7 +108,7 @@ html {
     }
   }
 
-  @media (max-width: 555px) {
+  @media (max-width: 569px) {
 
     .container {
       max-width: 320px;
@@ -121,7 +121,7 @@ html {
     padding: 50px 0;
   }
 
-  @media (max-width: 1240px) {
+  @media (max-width: 1256px) {
     section {
       padding: 30px 0;
     }
@@ -132,7 +132,7 @@ html {
   }
 
 
-  @media (max-width: 1240px) {
+  @media (max-width: 1256px) {
     header {
       padding-top: 29px;
     }
@@ -144,7 +144,7 @@ html {
   }
 }
 
-@media (max-width: 555px) {
+@media (max-width: 569px) {
   header {
     padding-top: 17px;
   }

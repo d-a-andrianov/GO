@@ -166,7 +166,7 @@ footer {
   counter-reset: count 0;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1256px) {
 
   .footer {
     padding-top: 22px;
@@ -298,7 +298,7 @@ footer {
   }
 }
 
-@media (max-width: 555px) {
+@media (max-width: 569px) {
   .footer {
     /* display: none; */
     padding-top: 8px;
