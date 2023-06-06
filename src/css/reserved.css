@@ -342,13 +342,19 @@
 /* общий fieldset для 3 колонок инпутов выбор даты и времени */
 .reserved__fieldset-date {
   border: 0 none;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   margin: 0 auto;
   max-width: 980px;
   height: 228px;
   gap: 50px;
   margin-bottom: 40px;
+}
+
+/* Флекс для 3 инпутов */
+.reserved__fieldset-date-wrapper {
+  display: flex;
+  gap: 50px;
 }
 
 /* левый ряд инпутов */
@@ -359,6 +365,12 @@
   flex-basis: 300px;
   gap: 23px 15px;
   padding-top: 16px;
+}
+
+.reserved__fieldset-date-time-wrapper {
+  display: flex;
+  gap: 32px;
+  flex-basis: 300px;
 }
 
 .reserved__input-left-top {
@@ -375,6 +387,12 @@
 }
 
 /* средний ряд инпутов */
+
+.reserved__fieldset-date-center-wrapper {
+  display: flex;
+  gap: 52px;
+  flex-basis: 632px;
+}
 
 .reserved__fieldset-date-center {
   display: flex;
@@ -524,8 +542,12 @@
   }
 
   .reserved__fieldset-date-left {
-    flex-basis: 354px;
-    gap: 12px;
+    flex-basis: 342px;
+    gap: 23px;
+  }
+
+  .reserved__fieldset-date-center-wrapper {
+    gap: 48px;
   }
 
   .reserved__fieldset-date-center {
@@ -663,12 +685,22 @@
     height: 323px;
   }
 
+  .reserved__fieldset-date-wrapper {
+    flex-direction: column;
+    gap: 14px;
+  }
+
   .reserved__fieldset-date-left {
-    order: 1;
-    display: block;
+    order: 0;
     /* flex-wrap: nowrap; */
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
+    flex-basis: 100px;
     gap: 0px;
+  }
+
+  .reserved__fieldset-date-time-wrapper {
+    flex-basis: 280px;
+    gap: 4px;
   }
 
   .reserved__input-left-top {
@@ -686,16 +718,19 @@
     margin-bottom: 13px;
   }
 
+  .reserved__fieldset-date-center-wrapper {
+    gap: 108px;
+  }
+
   .reserved__fieldset-date-center {
-    display: inline-block;
+    /* display: inline-block; */
     order: 2;
     float: left;
     max-width: 280px;
-    margin-right: 108px;
+    /* margin-right: 108px; */
   }
 
   .reserved__input {
-    margin-bottom: 16px;
     padding-left: 18px;
     font-size: 18px;
     line-height: 28px;
@@ -706,7 +741,7 @@
   }
 
   .reserved__fieldset-date-right {
-    display: inline-block;
+    /* display: inline-block; */
     order: 2;
     max-width: 300px;
   }
@@ -747,10 +782,10 @@
 
   .reserved__fieldset-date {
     max-width: 688px;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-bottom: 377px;
+    margin-bottom: 65px;
     justify-content: center;
   }
 
@@ -764,12 +799,17 @@
 
   .reserved__input-left-top {
     height: 54px;
-    width: 130px;
+    width: 100%;
     margin-right: 0px;
   }
 
   .reserved__input-left-bottom {
-    max-width: 280px;
+    width: 100%;
+  }
+
+  .reserved__fieldset-date-time-wrapper {
+    flex-basis: 509px;
+    gap: 20px;
   }
 
   .reserved__fieldset-date-left {
@@ -779,9 +819,17 @@
     margin-bottom: 0px;
   }
 
+  .reserved__fieldset-date-center-wrapper {
+    gap: 20px;
+    flex-basis: 158px;
+    flex-direction: row;
+}
+
   .reserved__fieldset-date-center {
     max-width: 280px;
+    flex-basis: 294px;
     margin-right: 0px;
+    margin-bottom: 0px;
   }
 
   .reserved__fieldset-date-right {
@@ -859,6 +907,11 @@
     margin-bottom: 27px;
   }
 
+  .reserved__fieldset-date-time-wrapper {
+    gap: 13px;
+    flex-basis: 280px;
+}
+
   .reserved__fieldset-check {
     margin-right: 14px;
   }
@@ -870,6 +923,11 @@
   .reserved__checkbox-focus:before {
     width: 30px;
     height: 30px;
+}
+
+.reserved__fieldset-date-center-wrapper {
+  gap: 0px;
+  flex-direction: column;
 }
 
 .reserved__legend-check-center {
@@ -908,23 +966,24 @@
 }
 
 .reserved__fieldset-date-left {
-  gap: 0px 14px;
-  margin-bottom: -33px;
+  gap: 3px 14px;
 }
-
 
 .reserved__input-left-top {
   width: 133px;
   margin-right: 0px;
 }
 
-
-.reserved__fieldset-date-center {
-  margin-bottom: -30px;
+.reserved__fieldset-date {
+  height: 529px;
 }
 
-.reserved__fieldset-date {
-  height: 217px;
+.reserved__fieldset-date-wrapper {
+  gap: 39px;
+}
+
+.reserved__fieldset-date-center {
+  flex-basis: 198px;
 }
 
 .reserved__button-bottom {

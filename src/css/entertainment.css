@@ -146,11 +146,15 @@
 
   .entertainment__list{
     justify-content: center;
-    gap: 49px 20px;
+    gap: 86px 20px;
   }
 
   .entertainment__figure {
     width: 368px;
+}
+
+.entertainment__item {
+  height: 221px;
 }
 
 /* .entertainment__figcaption {

@@ -38,9 +38,9 @@
 
         <!-- кнопка бургер в моб. версиях -->
         <button class="header__list-mobile" aria-label="burger-menu" name="burger-menu">
-              <!-- <img src="src/img/header/menu.svg" alt="Иконка меню"> -->
+          <!-- <img src="src/img/header/menu.svg" alt="Иконка меню"> -->
         </button>
-        
+
       </nav>
       <button class="header__button" name="call-me" type="submit">Заказать звонок</button>
     </div>
@@ -114,7 +114,8 @@
           <li class="entertainment__item">
             <figure class="entertainment__figure">
               <img class="entertainment__img" src="src/img/second-section/netflix.png" alt="Кино сервисы">
-              <figcaption class="entertainment__figcaption entertainment__figcaption-bottom">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск,      Okko
+              <figcaption class="entertainment__figcaption entertainment__figcaption-bottom">Кино сервисы Netflix, IVI,
+                MegoGo, КиноПоиск, Okko
               </figcaption>
             </figure>
           </li>
@@ -186,7 +187,7 @@
           <!-- Собери набор развлечений -->
           <fieldset class="reserved__fieldset-entertainment">
             <legend class="reserved__legend-title reserved__legend-title-center">Собери набор развлечений</legend>
-            
+
             <fieldset class="reserved__fieldset-check fieldset-left">
               <legend class="reserved__legend-check reserved__legend-check-left">Приставка:</legend>
 
@@ -203,22 +204,22 @@
             <fieldset class="reserved__fieldset-check fieldset-center">
               <legend class="reserved__legend-check reserved__legend-check-center">Настольные игры</legend>
 
-              <label class="reserved__label-entertainment reserved__label-entertainment-center"><input class="reserved__checkbox-focus" type="checkbox"
-                  name="games" value="Jenga">Jenga</label>
-              <label class="reserved__label-entertainment reserved__label-entertainment-center"><input class="reserved__checkbox-focus" type="checkbox"
-                  name="games" value="Monopoly">Monopoly</label>
-              <label class="reserved__label-entertainment reserved__label-entertainment-center"><input class="reserved__checkbox-focus" type="checkbox"
-                  name="games" value="Manchkin">Манчкин</label>
-              <label class="reserved__label-entertainment reserved__label-entertainment-center"><input class="reserved__checkbox-focus" type="checkbox"
-                  name="games" value="Alias">Alias</label>
+              <label class="reserved__label-entertainment reserved__label-entertainment-center"><input
+                  class="reserved__checkbox-focus" type="checkbox" name="games" value="Jenga">Jenga</label>
+              <label class="reserved__label-entertainment reserved__label-entertainment-center"><input
+                  class="reserved__checkbox-focus" type="checkbox" name="games" value="Monopoly">Monopoly</label>
+              <label class="reserved__label-entertainment reserved__label-entertainment-center"><input
+                  class="reserved__checkbox-focus" type="checkbox" name="games" value="Manchkin">Манчкин</label>
+              <label class="reserved__label-entertainment reserved__label-entertainment-center"><input
+                  class="reserved__checkbox-focus" type="checkbox" name="games" value="Alias">Alias</label>
             </fieldset>
 
             <fieldset class="reserved__fieldset-check fieldset-right">
               <legend class="reserved__legend-check reserved__legend-check-right">Дополнительно</legend>
-              <label class="reserved__label-entertainment reserved__label-entertainment-right"><input class="reserved__checkbox-focus" type="checkbox"
-                  name="additionally" value="Karaoke">Караоке</label>
-              <label class="reserved__label-entertainment reserved__label-entertainment-right"><input class="reserved__checkbox-focus" type="checkbox"
-                  name="additionally" value="VR">VR</label>
+              <label class="reserved__label-entertainment reserved__label-entertainment-right"><input
+                  class="reserved__checkbox-focus" type="checkbox" name="additionally" value="Karaoke">Караоке</label>
+              <label class="reserved__label-entertainment reserved__label-entertainment-right"><input
+                  class="reserved__checkbox-focus" type="checkbox" name="additionally" value="VR">VR</label>
             </fieldset>
 
           </fieldset>
@@ -227,39 +228,44 @@
           <fieldset class="reserved__fieldset-date">
             <legend class="reserved__legend-title-bottom">Выбери дату и время</legend>
 
-            <!-- левый ряд инпутов -->
-            <div class="reserved__fieldset-date-left">
-              <input class="reserved__input-left-top reserved__input" type="date" name="date" value="date" required>
+            <div class="reserved__fieldset-date-wrapper">
+              <!-- левый ряд инпутов -->
+              <div class="reserved__fieldset-date-left">
+                <div class="reserved__fieldset-date-time-wrapper">
+                  <input class="reserved__input-left-top reserved__input" type="date" name="date" value="date" required>
 
-              <input class="reserved__input-left-top reserved__input" type="time" name="time" value="date" required>
+                  <input class="reserved__input-left-top reserved__input" type="time" name="time" value="time" required>
+                </div>
 
-              <input class="reserved__input-left-bottom reserved__input" type="number" name="persons" value="persons"
-                placeholder="Сколько человек" required>
-            </div>
+                <input class="reserved__input-left-bottom reserved__input" type="number" name="persons" value="persons"
+                  placeholder="Сколько человек" required>
+              </div>
 
-            <!-- средний ряд инпутов -->
+              <!-- средний ряд инпутов -->
 
 
+              <div class="reserved__fieldset-date-center-wrapper">
+                <div class="reserved__fieldset-date-center">
+                  <label class="reserved__label-center-top">Имя
+                    <input class="reserved__input-center reserved__input" type="text" name="firstname" required>
+                  </label>
 
-            <div class="reserved__fieldset-date-center">
-              <label class="reserved__label-center-top">Имя
-                <input class="reserved__input-center reserved__input" type="text" name="firstname" required>
-              </label>
+                  <label class="reserved__label-center-bottom">Фамилия
+                    <input class="reserved__input-center reserved__input" type="text" name="surname" required>
+                  </label>
+                </div>
 
-              <label class="reserved__label-center-bottom">Фамилия
-                <input class="reserved__input-center reserved__input" type="text" name="surname" required>
-              </label>
-            </div>
+                <!-- правый ряд инпутов -->
+                <div class="reserved__fieldset-date-right">
+                  <label class="reserved__label-right-top">Телефон
+                    <input class="reserved__input-right reserved__input" type="phone" required>
+                  </label>
 
-            <!-- правый ряд инпутов -->
-            <div class="reserved__fieldset-date-right">
-              <label class="reserved__label-right-top">Телефон
-                <input class="reserved__input-right reserved__input" type="phone" required>
-              </label>
-
-              <label class="reserved__label-right-bottom">E-mail
-                <input class="reserved__input-right reserved__input" type="email" name="email" required>
-              </label>
+                  <label class="reserved__label-right-bottom">E-mail
+                    <input class="reserved__input-right reserved__input" type="email" name="email" required>
+                  </label>
+                </div>
+              </div>
             </div>
 
 
@@ -283,35 +289,36 @@
         <h2 class="about__title">О нас</h2>
         <div class="about-wrapper-320px">
 
-        <img class="about__img" src="src/img/fifth-section/photos 1.jpg" alt="Приставка, игровой компьютер">
+          <img class="about__img" src="src/img/fifth-section/photos 1.jpg" alt="Приставка, игровой компьютер">
 
-        <div class="about__wrapper">
-          <div class="about__text">
-            <p class="about__item">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности 
-в центральной части города.</p>
-            <p class="about__item">Каждый день мы стараемся создавать
-для вас самую лучшую игровую атмосферу
-и радовать Вас топовыми игровыми разработками
-со всего мира.</p>
+          <div class="about__wrapper">
+            <div class="about__text">
+              <p class="about__item">Для наших гостей мы создали концептуально новое игровое пространство виртуальной
+                реальности
+                в центральной части города.</p>
+              <p class="about__item">Каждый день мы стараемся создавать
+                для вас самую лучшую игровую атмосферу
+                и радовать Вас топовыми игровыми разработками
+                со всего мира.</p>
+            </div>
           </div>
         </div>
-      </div>
 
-          <!-- Цитата -->
-          <blockquote class="about__blockquote">
-            <p class="about__description"> GAME OVER — 
- ЭТО МЕСТО 
- НЕЗАБЫВАЕМЫХ
- ВПЕЧАТЛЕНИЙ </p>
-            <figure class="about__boss">
-              <img class="about__img-boss" src="src/img/fifth-section/arcadiy.jpg"
-                alt="Молодой человек в футболке и джинсах">
-              <figcaption class="about__text-block">Аркадий Абакшин, 
-                создатель игровой территории 
-                GAME OVER.
-              </figcaption>
-            </figure>
-          </blockquote>
+        <!-- Цитата -->
+        <blockquote class="about__blockquote">
+          <p class="about__description"> GAME OVER —
+            ЭТО МЕСТО
+            НЕЗАБЫВАЕМЫХ
+            ВПЕЧАТЛЕНИЙ </p>
+          <figure class="about__boss">
+            <img class="about__img-boss" src="src/img/fifth-section/arcadiy.jpg"
+              alt="Молодой человек в футболке и джинсах">
+            <figcaption class="about__text-block">Аркадий Абакшин,
+              создатель игровой территории
+              GAME OVER.
+            </figcaption>
+          </figure>
+        </blockquote>
 
       </div>
     </section>
@@ -325,7 +332,8 @@
           <li class="reviews__item">
             <figure class="reviews__figure">
               <div class="reviews__filter">
-                <img class="reviews__img reviews__img-1" src="src/img/sixth-section/man.jpg" alt="Фото мужчины посетителя">
+                <img class="reviews__img reviews__img-1" src="src/img/sixth-section/man.jpg"
+                  alt="Фото мужчины посетителя">
               </div>
               <figcaption class="reviews__figcaption">Макс Самойлов</figcaption>
             </figure>
@@ -336,7 +344,8 @@
           <li class="reviews__item">
             <figure class="reviews__figure">
               <div class="reviews__filter">
-                <img class="reviews__img reviews__img-2" src="src/img/sixth-section/girl.jpg" alt="Фото девушки посетителя">
+                <img class="reviews__img reviews__img-2" src="src/img/sixth-section/girl.jpg"
+                  alt="Фото девушки посетителя">
               </div>
               <figcaption class="reviews__figcaption">Оксана Григорьева</figcaption>
             </figure>
@@ -348,7 +357,8 @@
           <li class="reviews__item">
             <figure class="reviews__figure">
               <div class="reviews__filter">
-                <img class="reviews__img reviews__img-3" src="src/img/sixth-section/man-glasses.jpg" alt="Фото мужчины посетителя">
+                <img class="reviews__img reviews__img-3" src="src/img/sixth-section/man-glasses.jpg"
+                  alt="Фото мужчины посетителя">
               </div>
               <figcaption class="reviews__figcaption">Никита Ященко</figcaption>
             </figure>
@@ -386,7 +396,7 @@
           <div class="footer__adress-top">
 
             <p class="footer__text">
-              <a class="footer__link-adress" href="#">г. Москва 
+              <a class="footer__link-adress" href="#">г. Москва
                 ул. Усачёва, 29 к3</a>
             </p>
 
