@@ -1,6 +1,6 @@
 .other-halls {
   /* display: none; */
-  padding-bottom: 50px;
+  padding-bottom: 81px;
 }
 
 .other-halls__title {
@@ -52,4 +52,26 @@
   color: var(--white-color);
   padding: 79px 111px;
   text-align: center;
+}
+
+@media (max-width: 1256px) {
+
+  .other-halls {
+    padding: 39px 0 60px 0;
+  }
+
+  .other-halls__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 36px;
+  }
+
+  .other-halls__item {
+    width: 288px;
+    height: 172px;
+}
+  .other-halls__link {
+    padding: 51px 95px;
+  }
+
 }

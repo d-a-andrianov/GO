@@ -46,3 +46,27 @@
   padding: 336px 0 0 0;
 }
 
+@media (max-width: 1256px) {
+
+  .vibes-80 {
+    padding: 101px 0px 50px 0px;
+  }
+
+  .vibes-80__container {
+    height: 531px;
+  }
+
+  .vibes-80__title {
+    padding: 224px 0 0 0;
+  }
+
+  .vibes-80__link {
+    top: -49px;
+    left: 99px;
+  }
+
+  .preview__text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
