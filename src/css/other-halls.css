@@ -1,0 +1,29 @@
+.other-halls {
+  display: none;
+}
+
+.other-halls__wrapper {
+  display: flex;
+}
+
+.other-halls__img {
+
+}
+
+/* переделать из этих стилей */
+
+/* .halls__item_theme_vibes {
+  background-image: url(../img/third-section/1.jpg);
+}
+
+.halls__item_theme_starwars {
+  background-image: url(../img/third-section/2.jpg);
+}
+
+.halls__item_theme_wildwest {
+  background-image: url(../img/third-section/3.jpg);
+}
+
+.halls__item_theme_neon {
+  background-image: url(../img/third-section/4.jpg);
+} */

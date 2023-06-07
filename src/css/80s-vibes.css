@@ -1,0 +1,48 @@
+.vibes-80 {
+  /* max-width: 1440px; */
+  padding: 108px 0px 50px 0px;
+  margin: 0 auto;
+}
+
+.vibes-80__container {
+  max-width: 1440px;
+  background-image: url(../img/80s-vibes_first-section/80s-vibes_bg.png);
+  background-size: 100%;
+  height: 750px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.vibes-80__link {
+  position: absolute;
+  top: -47px;
+  left: 172px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+/* стрелочка назад */
+
+.vibes-80__link::before {
+  content: '';
+  background-image: url(../img/80s-vibes_first-section/Arrow.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 35px 28px;
+  height: 28px;
+  width: 30px;
+  right: 196px;
+  bottom: 0px;
+}
+
+.vibes-80__title {
+  color: var(--white-color);
+  font-size: 90px;
+  line-height: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 336px 0 0 0;
+}
+

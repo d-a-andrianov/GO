@@ -1,0 +1,36 @@
+.room__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.room__wrapper {
+  display: flex;
+  /* align-items: center; */
+  gap: 80px;
+}
+
+.room__img {
+  max-width: 600px;
+  height: 423px;
+  object-fit: cover;
+}
+
+.room__wrapper-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 135px;
+}
+
+.room__text {
+  font-size: 20px;
+  line-height: 28px;
+  /* white-space: pre; */
+}
+
+.room__text:not(:last-child) {
+  margin-bottom: 15px;
+}
