@@ -69,9 +69,52 @@
   .other-halls__item {
     width: 288px;
     height: 172px;
-}
+  }
+
   .other-halls__link {
     padding: 51px 95px;
   }
+}
 
+@media (max-width: 962px) {
+
+  .other-halls {
+    /* display: none; */
+    padding: 31px 0px 48px 0;
+  }
+
+  .other-halls__title {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0px 0 28px 0;
+    margin-bottom: 0px;
+  }
+
+  .other-halls__list {
+    gap: 7px;
+  }
+
+  .other-halls__item {
+    width: 224px;
+    height: 134px;
+  }
+
+  .other-halls__link {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 45px 82px;
+  }
+}
+
+@media (max-width: 748px) {
+
+  .other-halls {
+    /* display: none; */
+  }
+
+  .other-halls__list {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
 }
