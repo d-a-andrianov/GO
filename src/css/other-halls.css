@@ -118,3 +118,42 @@
     align-items: center;
 }
 }
+
+@media (max-width: 569px) {
+  .other-halls {
+    /* display: none; */
+    padding: 26px 0px 31px 0;
+  }
+
+  .other-halls__title {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px 0 16px 0;
+}
+
+.other-halls__list {
+  gap: 4px;
+}
+
+.other-halls__item {
+  width: 280px;
+  height: 140px;
+  background-size: 280px 140px;
+}
+
+.other-halls__item-theme-wildwest {
+  order: 3;
+}
+
+.other-halls__item-theme-starwars {
+  order: 2;
+}
+
+.other-halls__item-theme-neon {
+  order: 1;
+}
+
+.other-halls__link {
+  padding: 47px 94px;
+}
+}

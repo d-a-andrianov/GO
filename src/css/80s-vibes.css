@@ -81,7 +81,7 @@
 
   .vibes-80__container {
     height: 400px;
-}
+  }
 
   .vibes-80__title {
     font-size: 60px;
@@ -110,10 +110,40 @@
 
   .vibes-80__container {
     height: 380px;
-}
+  }
 
   .vibes-80__title {
     font-size: 40px;
     line-height: 48px;
+  }
+}
+
+@media (max-width: 569px) {
+  .vibes-80 {
+    /* display: none; */
+    padding: 35px 0px 2px 0px;
+  }
+
+  .vibes-80__container {
+    height: 205px;
+  }
+
+  .vibes-80__link::before {
+    background-size: 17px 12px;
+    top: 2px;
+    left: -23px;
+  }
+
+  .vibes-80__link {
+    font-size: 12px;
+    line-height: 16px;
+    top: -13px;
+    left: 41px;
+  }
+
+  .vibes-80__title {
+    font-size: 30px;
+    line-height: 36px;
+    padding: 84px 0 0 0px;
   }
 }

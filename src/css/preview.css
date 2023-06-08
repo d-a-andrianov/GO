@@ -43,3 +43,15 @@
     /* display: none; */
   }
 }
+
+@media (max-width: 569px) {
+  .preview {
+    /* display: none; */
+    padding: 7px 0 23px 0;
+  }
+
+  .preview {
+    /* display: none; */
+
+}
+}
