@@ -1,0 +1,144 @@
+.starwars {
+  /* max-width: 1440px; */
+  padding: 108px 0px 50px 0px;
+  margin: 0 auto;
+}
+
+.starwars__container {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-image: url(../img/starwars_first-section/starwars_bg.png);
+  background-size: 100%;
+  background-position: center center;
+  height: 750px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.starwars__link {
+  position: absolute;
+  top: -47px;
+  left: 172px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+/* стрелочка назад */
+
+.starwars__link::before {
+  content: '';
+  background-image: url(../img/80s-vibes_first-section/Arrow.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 35px 28px;
+  height: 28px;
+  width: 30px;
+  right: 196px;
+  bottom: 0px;
+}
+
+.starwars__title {
+  color: var(--white-color);
+  font-size: 90px;
+  line-height: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 336px 0 0 0;
+}
+
+@media (max-width: 1256px) {
+
+  .starwars {
+    padding: 101px 0px 50px 0px;
+  }
+
+  .starwars__container {
+    height: 531px;
+  }
+
+  .starwars__title {
+    padding: 224px 0 0 0;
+  }
+
+  .starwars__link {
+    top: -49px;
+    left: 99px;
+  }
+}
+
+@media (max-width: 962px) {
+
+  .starwars {
+    padding: 86px 0px 50px 0px;
+  }
+
+  .starwars__container {
+    height: 400px;
+  }
+
+  .starwars__title {
+    font-size: 60px;
+    line-height: 72px;
+    padding: 162px 0 0 0;
+  }
+
+  .starwars__link::before {
+    width: 30px;
+    right: 146px;
+  }
+
+  .starwars__link {
+    font-size: 16px;
+    line-height: 28px;
+    top: -50px;
+    left: 80px;
+  }
+}
+
+@media (max-width: 748px) {
+
+  .starwars {
+    /* display: none; */
+  }
+
+  .starwars__container {
+    height: 380px;
+  }
+
+  .starwars__title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 569px) {
+  .starwars {
+    /* display: none; */
+    padding: 35px 0px 2px 0px;
+  }
+
+  .starwars__container {
+    height: 205px;
+  }
+
+  .starwars__link::before {
+    background-size: 17px 12px;
+    top: 2px;
+    left: -23px;
+  }
+
+  .starwars__link {
+    font-size: 12px;
+    line-height: 16px;
+    top: -13px;
+    left: 41px;
+  }
+
+  .starwars__title {
+    font-size: 30px;
+    line-height: 36px;
+    padding: 84px 0 0 0px;
+  }
+}

@@ -22,7 +22,8 @@
 .room__wrapper-text {
   display: flex;
   flex-direction: column;
-  padding-top: 135px;
+  justify-content: center;
+  /* padding-top: 135px; */
 }
 
 .room__text {
@@ -58,7 +59,7 @@
 
   .room__wrapper-text {
     min-width: 413px;
-    padding-top: 87px;
+    /* padding-top: 87px; */
   }
 
   .room__text {
@@ -91,7 +92,7 @@
 
   .room__wrapper-text {
     min-width: 313px;
-    padding-top: 74px;
+    /* padding-top: 74px; */
   }
 
   .room__text {
