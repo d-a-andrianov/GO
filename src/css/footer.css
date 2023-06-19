@@ -191,8 +191,8 @@ footer {
     /* max-width: 542px;
     max-height: 274px; */
     height: 275px;
-    /* object-fit: cover;
-    object-position: 0px -11px; */
+    object-fit: cover;
+    /* object-position: 0px -11px; */
   }
 
   .footer__adress-top {

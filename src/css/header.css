@@ -188,7 +188,7 @@
 @media (max-width: 748px) {
 
 .header__container {
-  /* gap: 80px; */
+  gap: 100px;
 }
 
 .header__button {
